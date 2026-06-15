@@ -1,0 +1,37 @@
+{
+  "transactions": [
+    {
+      "id": "sample-001",
+      "card_id": "cake-cashback",
+      "date": "2026-06-03",
+      "amount": 1200000,
+      "category": "dining",
+      "merchant": "Pizza 4P",
+      "mcc": "5812",
+      "channel": "pos",
+      "note": "Sample dining spend"
+    },
+    {
+      "id": "sample-002",
+      "card_id": "cake-cashback",
+      "date": "2026-06-05",
+      "amount": 2500000,
+      "category": "grocery",
+      "merchant": "WinMart",
+      "mcc": "5411",
+      "channel": "pos",
+      "note": "Sample grocery spend"
+    },
+    {
+      "id": "sample-003",
+      "card_id": "sacombank-cashback",
+      "date": "2026-06-06",
+      "amount": 3000000,
+      "category": "online",
+      "merchant": "Lazada",
+      "mcc": "5311",
+      "channel": "online",
+      "note": "Sample online spend"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+[submodule "greennode-agentbase-skills"]
+	path = greennode-agentbase-skills
+	url = https://github.com/vngcloud/greennode-agentbase-skills.git

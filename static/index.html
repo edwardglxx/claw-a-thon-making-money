@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cashback Agent</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f6f3;
+      --ink: #202323;
+      --muted: #64706b;
+      --line: #d9ded6;
+      --panel: #ffffff;
+      --green: #176b4d;
+      --blue: #275da8;
+      --gold: #d4952f;
+      --red: #a33b36;
+      font-family: Inter, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); }
+    header { height: 64px; display: flex; align-items: center; justify-content: space-between; padding: 0 22px; background: #123f33; color: #fff; }
+    h1 { font-size: 20px; margin: 0; letter-spacing: 0; }
+    h2 { font-size: 16px; margin: 0 0 12px; }
+    h3 { font-size: 14px; margin: 0 0 8px; }
+    button, input, textarea, select { font: inherit; }
+    button { border: 0; border-radius: 6px; background: var(--green); color: #fff; padding: 9px 12px; font-weight: 700; cursor: pointer; }
+    button.icon { width: 36px; height: 36px; padding: 0; display: inline-grid; place-items: center; }
+    button.secondary { background: var(--blue); }
+    button.ghost { background: #e8eee9; color: #18352c; }
+    button.tab { background: transparent; color: #dce8e2; border-bottom: 3px solid transparent; border-radius: 0; height: 64px; }
+    button.tab.active { color: #fff; border-color: #f0b84d; }
+    input, textarea, select { width: 100%; border: 1px solid var(--line); border-radius: 6px; padding: 10px; background: #fff; color: var(--ink); }
+    textarea { min-height: 88px; resize: vertical; }
+    .tabs { display: flex; gap: 10px; height: 64px; }
+    .view { display: none; max-width: 1320px; margin: 0 auto; padding: 16px; }
+    .view.active { display: block; }
+    .workbench { display: grid; grid-template-columns: minmax(420px, 1fr) minmax(360px, 470px); gap: 14px; min-height: calc(100vh - 96px); }
+    .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }
+    .left-grid { display: grid; grid-template-rows: minmax(260px, .9fr) minmax(260px, 1fr); gap: 14px; }
+    .card-list { display: grid; gap: 10px; max-height: 40vh; overflow: auto; padding-right: 4px; }
+    .card-item { border: 1px solid var(--line); border-radius: 8px; padding: 12px; cursor: pointer; background: #fff; }
+    .card-item.active { border-color: var(--green); box-shadow: inset 4px 0 0 var(--green); }
+    .card-top { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
+    .muted { color: var(--muted); font-size: 13px; }
+    .metric { font-weight: 800; }
+    .bar { height: 10px; background: #edf0ea; border-radius: 99px; overflow: hidden; margin-top: 8px; }
+    .bar > span { display: block; height: 100%; background: var(--gold); width: 0%; }
+    .detail-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 12px; }
+    .mini { border: 1px solid var(--line); border-radius: 8px; padding: 10px; background: #fbfcfa; min-height: 68px; }
+    .txn-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .txn-table th, .txn-table td { border-bottom: 1px solid var(--line); padding: 8px 6px; text-align: left; vertical-align: top; }
+    .chat { display: grid; grid-template-rows: auto 1fr auto auto; gap: 10px; min-height: calc(100vh - 128px); }
+    .quick { display: flex; flex-wrap: wrap; gap: 8px; }
+    .messages { border: 1px solid var(--line); border-radius: 8px; background: #fbfcfa; padding: 10px; overflow: auto; min-height: 280px; }
+    .msg { margin: 8px 0; padding: 10px; border-radius: 8px; line-height: 1.45; white-space: pre-wrap; }
+    .msg.user { background: #e9f0fb; margin-left: 24px; }
+    .msg.agent { background: #edf7f0; margin-right: 24px; }
+    .msg-note { display: block; margin-top: 8px; color: var(--muted); font-size: 12px; font-style: italic; line-height: 1.35; }
+    .composer { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: end; }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    dialog { border: 1px solid var(--line); border-radius: 8px; padding: 0; width: min(680px, calc(100vw - 24px)); }
+    dialog::backdrop { background: rgba(0,0,0,.28); }
+    .modal { padding: 16px; }
+    .modal header { height: auto; background: #fff; color: var(--ink); padding: 0 0 12px; }
+    .tab2 { display: grid; grid-template-columns: minmax(360px, 520px) 1fr; gap: 14px; }
+    .search-results { display: grid; gap: 8px; max-height: 62vh; overflow: auto; }
+    .result { border: 1px solid var(--line); border-radius: 8px; padding: 10px; background: #fff; }
+    .rules { display: grid; gap: 10px; max-height: 70vh; overflow: auto; }
+    code { background: #eef1ed; padding: 2px 5px; border-radius: 4px; }
+    @media (max-width: 960px) {
+      header { align-items: stretch; height: auto; flex-direction: column; padding-top: 12px; }
+      .tabs { height: 48px; }
+      button.tab { height: 48px; }
+      .workbench, .tab2 { grid-template-columns: 1fr; }
+      .chat { min-height: 560px; }
+      .detail-grid, .form-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cashback Agent</h1>
+    <nav class="tabs">
+      <button class="tab active" onclick="showTab('advisor')">Tư vấn</button>
+      <button class="tab" onclick="showTab('lookup')">Tra cứu</button>
+    </nav>
+  </header>
+
+  <main id="advisor" class="view active">
+    <div class="workbench">
+      <div class="left-grid">
+        <section class="panel">
+          <h2>Thẻ đang có</h2>
+          <div id="cardList" class="card-list"></div>
+        </section>
+        <section class="panel">
+          <h2 id="detailTitle">Chi tiết thẻ</h2>
+          <div id="cardDetail" class="muted">Chọn một thẻ để xem giao dịch trong kỳ.</div>
+        </section>
+      </div>
+      <section class="panel chat">
+        <div>
+          <h2>Chat với agent</h2>
+          <div class="quick">
+            <button class="ghost" onclick="setPrompt('tôi sắp tiêu 300k tại WINMART pos, nên dùng thẻ nào?')">Hỏi gợi ý</button>
+            <button class="ghost" onclick="openTxnModal()">Thêm giao dịch</button>
+            <button class="ghost" onclick="openMccModal()">Thêm MCC</button>
+          </div>
+        </div>
+        <div id="messages" class="messages"></div>
+        <div class="composer">
+          <textarea id="question" placeholder="Hỏi agent, ví dụ: tôi sắp tiêu 2 triệu tại Shopee online, nên dùng thẻ nào?"></textarea>
+          <button class="icon" title="Gửi" onclick="ask()">➤</button>
+        </div>
+        <div class="muted">Agent sẽ ghi rõ khi MCC khớp database hoặc chỉ là suy đoán.</div>
+      </section>
+    </div>
+  </main>
+
+  <main id="lookup" class="view">
+    <div class="tab2">
+      <section class="panel">
+        <h2>Tra cứu MCC</h2>
+        <div class="form-grid">
+          <input id="mccSearch" placeholder="Merchant, website hoặc MCC" oninput="searchMcc()" />
+          <select id="mccMethod" onchange="lookupMcc()"><option value="pos">pos</option><option value="online">online</option><option value="any">any</option></select>
+        </div>
+        <div style="margin-top:8px"><button onclick="lookupMcc()">Tra cứu chính xác</button></div>
+        <div id="mccLookup" class="answer muted" style="margin-top:10px">Nhập merchant để tra cứu.</div>
+        <h3 style="margin-top:16px">Kết quả gần đúng</h3>
+        <div id="mccResults" class="search-results"></div>
+      </section>
+      <section class="panel">
+        <h2>Quy định thẻ</h2>
+        <div id="rules" class="rules"></div>
+      </section>
+    </div>
+  </main>
+
+  <dialog id="txnDialog">
+    <div class="modal">
+      <header><h2>Thêm giao dịch</h2></header>
+      <div class="form-grid">
+        <select id="txnCard"></select>
+        <input id="txnAmount" placeholder="Số tiền" />
+        <input id="txnMerchant" placeholder="Merchant" />
+        <input id="txnMcc" placeholder="MCC nếu biết" />
+        <select id="txnMethod"><option value="online">online</option><option value="pos">pos</option></select>
+        <input id="txnDate" type="date" />
+      </div>
+      <div style="display:flex; gap:8px; justify-content:flex-end; margin-top:12px">
+        <button class="ghost" onclick="txnDialog.close()">Đóng</button>
+        <button onclick="saveTxn()">Lưu</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="mccDialog">
+    <div class="modal">
+      <header><h2>Thêm MCC</h2></header>
+      <div class="form-grid">
+        <input id="newMerchant" placeholder="Merchant name" />
+        <input id="newMcc" placeholder="MCC" />
+        <select id="newMethod"><option value="pos">pos</option><option value="online">online</option><option value="any">any</option></select>
+        <input id="newNote" placeholder="Ghi chú" />
+      </div>
+      <div style="display:flex; gap:8px; justify-content:flex-end; margin-top:12px">
+        <button class="ghost" onclick="mccDialog.close()">Đóng</button>
+        <button onclick="saveMcc()">Lưu MCC</button>
+      </div>
+    </div>
+  </dialog>
+
+<script>
+let cards = [];
+let cardRules = [];
+let selectedCardId = null;
+
+async function api(path, options) {
+  const res = await fetch(path, options);
+  const data = await res.json();
+  if (!res.ok) throw new Error(data.error || 'Request failed');
+  return data;
+}
+function fmt(v) { return Math.round(Number(v || 0)).toLocaleString('vi-VN') + 'đ'; }
+function esc(v) { return String(v ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
+function pct(a, b) { return b ? Math.min(100, Math.round(a / b * 100)) : 100; }
+
+function showTab(id) {
+  document.querySelectorAll('.view').forEach(x => x.classList.toggle('active', x.id === id));
+  document.querySelectorAll('button.tab').forEach(x => x.classList.toggle('active', x.textContent.includes(id === 'advisor' ? 'Tư vấn' : 'Tra cứu')));
+  if (id === 'lookup') renderRules();
+}
+
+async function loadDashboard() {
+  const [progress, cardData] = await Promise.all([api('/api/progress'), api('/api/cards')]);
+  cards = progress.cards;
+  cardRules = cardData.cards;
+  selectedCardId = selectedCardId || cards[0]?.card_id;
+  document.getElementById('txnCard').innerHTML = cards.map(c => `<option value="${c.card_id}">${esc(c.card_name)}</option>`).join('');
+  renderCards();
+  await loadCardDetail(selectedCardId);
+  renderRules();
+}
+
+function renderCards() {
+  document.getElementById('cardList').innerHTML = cards.map(c => {
+    const target = c.min_total_spend || c.total_spend || 1;
+    return `<div class="card-item ${c.card_id === selectedCardId ? 'active' : ''}" onclick="selectCard('${c.card_id}')">
+      <div class="card-top"><strong>${esc(c.card_name)}</strong><span class="metric">${fmt(c.earned_cashback)}</span></div>
+      <div class="muted">Chi tiêu ${fmt(c.total_spend)} | Tiềm năng ${fmt(c.potential_cashback)}</div>
+      <div class="bar"><span style="width:${pct(c.total_spend, target)}%"></span></div>
+      <div class="muted">${c.qualified ? 'Đã đạt điều kiện' : 'Cần thêm ' + fmt(c.min_spend_gap)}</div>
+    </div>`;
+  }).join('');
+}
+
+async function selectCard(cardId) {
+  selectedCardId = cardId;
+  renderCards();
+  await loadCardDetail(cardId);
+}
+
+async function loadCardDetail(cardId) {
+  if (!cardId) return;
+  const data = await api('/api/card-detail?card_id=' + encodeURIComponent(cardId));
+  const p = data.progress;
+  document.getElementById('detailTitle').textContent = p.card_name;
+  const txns = data.transactions.filter(t => t.date >= p.period_start && t.date <= p.period_end);
+  document.getElementById('cardDetail').innerHTML = `
+    <div class="detail-grid">
+      <div class="mini"><div class="muted">Kỳ</div><strong>${p.period}</strong></div>
+      <div class="mini"><div class="muted">Đã chi</div><strong>${fmt(p.total_spend)}</strong></div>
+      <div class="mini"><div class="muted">Hoàn đạt</div><strong>${fmt(p.earned_cashback)}</strong></div>
+    </div>
+    <h3>Cashback theo nhóm</h3>
+    <div class="muted">${Object.entries(p.category_cashback).map(([k,v]) => `${esc(k)}: ${fmt(v)}`).join(' | ') || 'Chưa có giao dịch khớp rule.'}</div>
+    <h3 style="margin-top:14px">Giao dịch trong kỳ</h3>
+    <table class="txn-table"><thead><tr><th>Ngày</th><th>Merchant</th><th>MCC</th><th>PTTT</th><th>Số tiền</th></tr></thead>
+      <tbody>${txns.map(t => `<tr><td>${esc(t.date)}</td><td>${esc(t.merchant_name)}</td><td>${esc(t.mcc)}</td><td>${esc(t.payment_method)}</td><td>${fmt(t.amount)}</td></tr>`).join('') || '<tr><td colspan="5" class="muted">Chưa có giao dịch trong kỳ.</td></tr>'}</tbody></table>`;
+}
+
+function addMessage(role, text) {
+  const box = document.getElementById('messages');
+  box.insertAdjacentHTML('beforeend', `<div class="msg ${role}">${formatMessage(text)}</div>`);
+  box.scrollTop = box.scrollHeight;
+}
+function formatMessage(text) {
+  const escaped = esc(text || '');
+  return escaped.replace(/\n\n_Note: ([\s\S]+?)_$/m, '<span class="msg-note">Note: $1</span>');
+}
+function setPrompt(text) { document.getElementById('question').value = text; document.getElementById('question').focus(); }
+async function ask() {
+  const question = document.getElementById('question').value.trim();
+  if (!question) return;
+  addMessage('user', question);
+  document.getElementById('question').value = '';
+  try {
+    const data = await api('/api/ask', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({question})});
+    addMessage('agent', data.answer);
+    await loadDashboard();
+  } catch (err) { addMessage('agent', err.message); }
+}
+
+function openTxnModal() { txnDialog.showModal(); }
+function openMccModal() { mccDialog.showModal(); }
+async function saveTxn() {
+  const body = {
+    card_id: document.getElementById('txnCard').value,
+    amount: Number(document.getElementById('txnAmount').value),
+    merchant: document.getElementById('txnMerchant').value,
+    mcc: document.getElementById('txnMcc').value,
+    channel: document.getElementById('txnMethod').value,
+    date: document.getElementById('txnDate').value || undefined
+  };
+  try {
+    const data = await api('/api/transactions', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)});
+    txnDialog.close();
+    addMessage('agent', `Đã lưu giao dịch ${data.transaction.merchant_name || data.transaction.merchant} ${fmt(data.transaction.amount)}.`);
+    await loadDashboard();
+  } catch (err) { addMessage('agent', err.message); }
+}
+
+async function saveMcc() {
+  const body = {
+    merchant_name: document.getElementById('newMerchant').value,
+    mcc: document.getElementById('newMcc').value,
+    payment_method: document.getElementById('newMethod').value,
+    note: document.getElementById('newNote').value
+  };
+  try {
+    const data = await api('/api/merchant-mcc', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)});
+    mccDialog.close();
+    addMessage('agent', `Đã thêm MCC ${data.row.mcc} cho ${data.row.merchant_name}.`);
+    document.getElementById('mccSearch').value = data.row.merchant_name;
+    await searchMcc();
+  } catch (err) { addMessage('agent', err.message); }
+}
+
+async function lookupMcc() {
+  const q = document.getElementById('mccSearch').value.trim();
+  const method = document.getElementById('mccMethod').value;
+  if (!q) return;
+  const data = await api(`/api/merchant-mcc/lookup?merchant=${encodeURIComponent(q)}&payment_method=${encodeURIComponent(method)}`);
+  document.getElementById('mccLookup').innerHTML = data.match ? `<strong>${esc(data.match.merchant_name)}</strong><br>MCC <code>${esc(data.match.mcc)}</code> | ${esc(data.match.payment_method)}<br><span class="muted">${esc(data.match.address || '')}</span>` : 'Không tìm thấy trong database MCC.';
+}
+async function searchMcc() {
+  const q = document.getElementById('mccSearch').value.trim();
+  const data = await api('/api/merchant-mcc/search?q=' + encodeURIComponent(q));
+  document.getElementById('mccResults').innerHTML = data.rows.map(r => `<div class="result"><strong>${esc(r.merchant_name)}</strong><div>MCC <code>${esc(r.mcc)}</code> | ${esc(r.payment_method)}</div><div class="muted">${esc(r.merchant_full_name || '')} ${esc(r.address || '')}</div></div>`).join('');
+}
+function renderRules() {
+  document.getElementById('rules').innerHTML = cardRules.map(c => `<div class="result"><h3>${esc(c.name)}</h3>
+    <div class="muted">Chốt sao kê: ${esc(c.statement?.close_day || 'tháng dương lịch')} | Chốt hoàn: ${esc(c.cashback_close_day || '-')} | Hạn mức: ${fmt(c.credit_limit)}</div>
+    <div class="muted">Chi tiêu tối thiểu: ${fmt(c.min_total_spend)} | Cap kỳ: ${c.period_cap ? fmt(c.period_cap) : 'không khai báo'} | Làm tròn cashback: ${c.cashback_round_down_to ? fmt(c.cashback_round_down_to) : 'không'}</div>
+    <ul>${(c.cashback_rules || []).map(r => `<li><strong>${esc(r.name)}</strong><br><span class="muted">Rate ${Math.round(Number(r.rate || 0) * 100)}% | MCC ${(r.mcc || []).map(esc).join(', ') || '-'} | Kênh ${(r.channels || []).map(esc).join(', ') || '-'} | Loại trừ MCC ${(r.excluded_mcc || []).map(esc).join(', ') || '-'}</span></li>`).join('')}</ul>
+  </div>`).join('');
+}
+
+document.getElementById('question').addEventListener('keydown', e => { if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) ask(); });
+loadDashboard().then(() => {
+  addMessage('agent', 'Mình sẵn sàng tư vấn thẻ, ghi giao dịch và tra cứu MCC. Hãy hỏi một giao dịch sắp chi.');
+  searchMcc();
+});
+</script>
+</body>
+</html>
