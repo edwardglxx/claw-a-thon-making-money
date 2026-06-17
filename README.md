@@ -41,12 +41,12 @@ Tạo file `.env` từ `.env.example`:
 copy .env.example .env
 ```
 
-Điền:
+Điền các biến cần thiết trong `.env`:
 
 ```text
-LLM_BASE_URL=https://maas-llm-aiplatform-hcm.api.vngcloud.vn/v1
-LLM_MODEL=<minimax-model-path>
-LLM_API_KEY=<your-greennode-api-key>
+LLM_BASE_URL=
+LLM_MODEL=
+LLM_API_KEY=
 ```
 
 Nếu `.env` chưa có đủ `LLM_API_KEY` và `LLM_MODEL`, agent vẫn chạy bằng parser rule-based.
