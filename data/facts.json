@@ -1,0 +1,22 @@
+[
+  {
+    "id": "fact-20260617093718747349",
+    "text": "30shine không có thanh toán trực tuyến đâu cưng",
+    "normalized_text": "30shine khong co thanh toan truc tuyen dau cung",
+    "created_at": "2026-06-17T09:37:18",
+    "type": "payment_channel_unavailable",
+    "merchant": "30shine",
+    "merchant_norm": "30shine",
+    "channel": "online"
+  },
+  {
+    "id": "fact-20260617093735645664",
+    "text": "30shine không có thanh toán trực tuyến đâu",
+    "normalized_text": "30shine khong co thanh toan truc tuyen dau",
+    "created_at": "2026-06-17T09:37:35",
+    "type": "payment_channel_unavailable",
+    "merchant": "30shine",
+    "merchant_norm": "30shine",
+    "channel": "online"
+  }
+]

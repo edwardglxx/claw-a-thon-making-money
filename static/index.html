@@ -16,7 +16,7 @@
       --blue: #275da8;
       --gold: #d4952f;
       --red: #a33b36;
-      font-family: Inter, Arial, sans-serif;
+      font-family: "Segoe UI", Arial, sans-serif;
     }
     * { box-sizing: border-box; }
     body { margin: 0; background: var(--bg); color: var(--ink); }
@@ -29,43 +29,90 @@
     button.icon { width: 36px; height: 36px; padding: 0; display: inline-grid; place-items: center; }
     button.secondary { background: var(--blue); }
     button.ghost { background: #e8eee9; color: #18352c; }
+    button.danger { background: #f1dddd; color: var(--red); }
+    button.delete-x { width: 30px; height: 30px; padding: 0; border-radius: 50%; background: #f1dddd; color: var(--red); }
+    button.edit-gear { width: 30px; height: 30px; padding: 0; border-radius: 50%; background: #e8eee9; color: #18352c; }
     button.tab { background: transparent; color: #dce8e2; border-bottom: 3px solid transparent; border-radius: 0; height: 64px; }
     button.tab.active { color: #fff; border-color: #f0b84d; }
     input, textarea, select { width: 100%; border: 1px solid var(--line); border-radius: 6px; padding: 10px; background: #fff; color: var(--ink); }
     textarea { min-height: 88px; resize: vertical; }
     .tabs { display: flex; gap: 10px; height: 64px; }
-    .view { display: none; max-width: 1320px; margin: 0 auto; padding: 16px; }
+    .view { display: none; width: 100%; margin: 0 auto; padding: 16px; }
     .view.active { display: block; }
-    .workbench { display: grid; grid-template-columns: minmax(420px, 1fr) minmax(360px, 470px); gap: 14px; min-height: calc(100vh - 96px); }
+    .workbench { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; align-items: start; }
+    .advisor-shell { max-width: 980px; margin: 0 auto; }
+    .cards-shell { display: grid; gap: 14px; }
     .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }
-    .left-grid { display: grid; grid-template-rows: minmax(260px, .9fr) minmax(260px, 1fr); gap: 14px; }
-    .card-list { display: grid; gap: 10px; max-height: 40vh; overflow: auto; padding-right: 4px; }
+    .left-grid { display: grid; grid-template-rows: auto auto; gap: 14px; align-content: start; }
+    .card-list { display: grid; gap: 10px; padding-right: 0; }
     .card-item { border: 1px solid var(--line); border-radius: 8px; padding: 12px; cursor: pointer; background: #fff; }
-    .card-item.active { border-color: var(--green); box-shadow: inset 4px 0 0 var(--green); }
+    .card-item.active { border-color: var(--green); background: #e9f7ef; box-shadow: inset 4px 0 0 var(--green); }
     .card-top { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
+    .panel > .card-top { align-items: center; margin-bottom: 14px; }
+    .panel > .card-top > h2 { margin: 0; }
+    .panel-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: flex-end; }
+    .card-title { flex: 1 1 auto; min-width: 0; }
+    .card-actions { display: inline-flex; gap: 8px; align-items: center; flex: 0 0 auto; }
     .muted { color: var(--muted); font-size: 13px; }
     .metric { font-weight: 800; }
     .bar { height: 10px; background: #edf0ea; border-radius: 99px; overflow: hidden; margin-top: 8px; }
     .bar > span { display: block; height: 100%; background: var(--gold); width: 0%; }
+    .requirement { margin-top: 8px; }
     .detail-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 12px; }
     .mini { border: 1px solid var(--line); border-radius: 8px; padding: 10px; background: #fbfcfa; min-height: 68px; }
     .txn-table { width: 100%; border-collapse: collapse; font-size: 13px; }
     .txn-table th, .txn-table td { border-bottom: 1px solid var(--line); padding: 8px 6px; text-align: left; vertical-align: top; }
-    .chat { display: grid; grid-template-rows: auto 1fr auto auto; gap: 10px; min-height: calc(100vh - 128px); }
+    .txn-table th:last-child, .txn-table td:last-child { text-align: right; width: 64px; }
+    .txn-table th button { padding: 0; background: transparent; color: var(--ink); font-weight: 800; text-align: left; }
+    .txn-table input, .txn-table select { padding: 6px; font-size: 13px; min-width: 86px; }
+    .txn-actions { display: flex; justify-content: flex-end; gap: 6px; }
+    .chat { position: sticky; top: 80px; display: grid; grid-template-rows: auto minmax(0, 1fr) auto auto auto; gap: 10px; height: calc(100vh - 96px); min-height: 560px; overflow: hidden; }
+    .advisor-shell .chat { position: static; height: calc(100vh - 128px); }
+    .chat-head { position: sticky; top: 0; z-index: 2; background: var(--panel); padding-bottom: 4px; border-bottom: 1px solid var(--line); }
     .quick { display: flex; flex-wrap: wrap; gap: 8px; }
-    .messages { border: 1px solid var(--line); border-radius: 8px; background: #fbfcfa; padding: 10px; overflow: auto; min-height: 280px; }
+    .messages { border: 1px solid var(--line); border-radius: 8px; background: #fbfcfa; padding: 10px; overflow: auto; min-height: 0; }
     .msg { margin: 8px 0; padding: 10px; border-radius: 8px; line-height: 1.45; white-space: pre-wrap; }
     .msg.user { background: #e9f0fb; margin-left: 24px; }
     .msg.agent { background: #edf7f0; margin-right: 24px; }
     .msg-note { display: block; margin-top: 8px; color: var(--muted); font-size: 12px; font-style: italic; line-height: 1.35; }
+    .action-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+    .action-row button { padding: 7px 10px; font-size: 13px; }
     .composer { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: end; }
+    .prompt-wrap { position: relative; }
+    .prompt-wrap textarea { position: relative; z-index: 1; background: transparent; }
+    .prompt-wrap.has-ghost textarea { color: var(--ink); }
+    .prompt-ghost {
+      position: absolute;
+      inset: 1px 1px auto 1px;
+      min-height: 86px;
+      padding: 10px;
+      color: transparent;
+      pointer-events: none;
+      white-space: pre-wrap;
+      line-height: normal;
+      overflow: hidden;
+      z-index: 0;
+    }
+    .prompt-ghost .ghost-prefix { color: transparent; }
+    .prompt-ghost .ghost-sample { color: #9aa49f; }
+    .prompt-sample-hint { margin-top: -2px; color: var(--muted); font-size: 12px; line-height: 1.35; }
+    .prompt-sample-hint code { font-size: 12px; }
     .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .mcc-search-row { display: grid; grid-template-columns: minmax(0, 1fr) 120px; gap: 8px; align-items: center; }
+    .field { display: grid; gap: 4px; }
+    .field label { font-size: 12px; font-weight: 700; color: var(--muted); }
+    .field label.required::after { content: " *"; color: var(--red); }
+    .field.full { grid-column: 1 / -1; }
+    .field-help { color: var(--muted); font-size: 12px; line-height: 1.35; }
+    .form-error { color: var(--red); font-size: 13px; margin-top: 8px; min-height: 18px; }
     dialog { border: 1px solid var(--line); border-radius: 8px; padding: 0; width: min(680px, calc(100vw - 24px)); }
     dialog::backdrop { background: rgba(0,0,0,.28); }
     .modal { padding: 16px; }
     .modal header { height: auto; background: #fff; color: var(--ink); padding: 0 0 12px; }
-    .tab2 { display: grid; grid-template-columns: minmax(360px, 520px) 1fr; gap: 14px; }
-    .search-results { display: grid; gap: 8px; max-height: 62vh; overflow: auto; }
+    .tab2 { display: grid; grid-template-columns: minmax(360px, 720px); gap: 14px; }
+    #lookup { height: calc(100vh - 64px); overflow: hidden; }
+    .lookup-panel { height: calc(100vh - 96px); display: grid; grid-template-rows: auto auto auto auto auto minmax(0, 1fr); overflow: hidden; }
+    .search-results { display: grid; align-content: start; gap: 8px; min-height: 0; overflow: auto; }
     .result { border: 1px solid var(--line); border-radius: 8px; padding: 10px; background: #fff; }
     .rules { display: grid; gap: 10px; max-height: 70vh; overflow: auto; }
     code { background: #eef1ed; padding: 2px 5px; border-radius: 4px; }
@@ -74,8 +121,10 @@
       .tabs { height: 48px; }
       button.tab { height: 48px; }
       .workbench, .tab2 { grid-template-columns: 1fr; }
-      .chat { min-height: 560px; }
-      .detail-grid, .form-grid { grid-template-columns: 1fr; }
+      #lookup { height: calc(100vh - 96px); }
+      .lookup-panel { height: calc(100vh - 128px); }
+      .chat { position: static; height: calc(100vh - 120px); min-height: 560px; }
+      .detail-grid, .form-grid, .mcc-search-row { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -83,58 +132,84 @@
   <header>
     <h1>Cashback Agent</h1>
     <nav class="tabs">
-      <button class="tab active" onclick="showTab('advisor')">Tư vấn</button>
-      <button class="tab" onclick="showTab('lookup')">Tra cứu</button>
+      <button class="tab active" data-tab="advisor" onclick="showTab('advisor')">Hỏi đáp</button>
+      <button class="tab" data-tab="cards" onclick="showTab('cards')">Quản lí thẻ</button>
+      <button class="tab" data-tab="lookup" onclick="showTab('lookup')">Tra cứu</button>
     </nav>
   </header>
 
   <main id="advisor" class="view active">
-    <div class="workbench">
-      <div class="left-grid">
-        <section class="panel">
-          <h2>Thẻ đang có</h2>
-          <div id="cardList" class="card-list"></div>
-        </section>
+    <div class="advisor-shell">
+      <section class="panel chat">
+        <div class="chat-head">
+          <h2>Chat với agent</h2>
+          <div class="quick">
+            <button class="ghost" onclick="setPromptTemplate('/ask')">/ask</button>
+            <button class="ghost" onclick="setPromptTemplate('/input_trans')">/input_trans</button>
+            <button class="ghost" onclick="setPromptTemplate('/fact')">/fact</button>
+            <button class="ghost" onclick="clearChat()">/clear</button>
+            <button class="ghost" onclick="openTxnModal()">Form Nhập giao dịch</button>
+          </div>
+        </div>
+        <div id="messages" class="messages"></div>
+        <div class="composer">
+          <div id="promptWrap" class="prompt-wrap">
+            <div id="promptGhost" class="prompt-ghost"></div>
+            <textarea id="question" placeholder="Gõ /ask để hỏi đáp hoặc gõ /input_trans để nhập giao dịch"></textarea>
+          </div>
+          <button class="icon" title="Gửi" onclick="ask()">➤</button>
+        </div>
+        <div id="promptSampleHint" class="prompt-sample-hint"></div>
+        <div class="muted">Agent sẽ ghi rõ khi MCC khớp database hoặc chỉ là suy đoán.</div>
+      </section>
+    </div>
+  </main>
+
+  <main id="cards" class="view">
+    <div class="cards-shell">
+      <div class="workbench">
+        <div class="left-grid">
+          <section class="panel card-selector">
+            <div class="card-top">
+              <h2>Thẻ đang có</h2>
+              <div class="panel-actions">
+                <button class="ghost" onclick="openCardModal()">Thêm thẻ mới</button>
+                <button id="editCardModeButton" class="ghost" onclick="toggleEditCardMode()">Chỉnh sửa</button>
+              </div>
+            </div>
+            <div id="cardList" class="card-list"></div>
+          </section>
+        </div>
         <section class="panel">
           <h2 id="detailTitle">Chi tiết thẻ</h2>
           <div id="cardDetail" class="muted">Chọn một thẻ để xem giao dịch trong kỳ.</div>
         </section>
       </div>
-      <section class="panel chat">
-        <div>
-          <h2>Chat với agent</h2>
-          <div class="quick">
-            <button class="ghost" onclick="setPrompt('tôi sắp tiêu 300k tại WINMART pos, nên dùng thẻ nào?')">Hỏi gợi ý</button>
-            <button class="ghost" onclick="openTxnModal()">Thêm giao dịch</button>
-            <button class="ghost" onclick="openMccModal()">Thêm MCC</button>
-          </div>
+      <section class="panel">
+        <div class="card-top">
+          <h2>Quy định hoàn tiền thẻ</h2>
         </div>
-        <div id="messages" class="messages"></div>
-        <div class="composer">
-          <textarea id="question" placeholder="Hỏi agent, ví dụ: tôi sắp tiêu 2 triệu tại Shopee online, nên dùng thẻ nào?"></textarea>
-          <button class="icon" title="Gửi" onclick="ask()">➤</button>
-        </div>
-        <div class="muted">Agent sẽ ghi rõ khi MCC khớp database hoặc chỉ là suy đoán.</div>
+        <select id="ruleCardSelect" onchange="renderRules()" style="margin-bottom:10px"></select>
+        <div id="rules" class="rules"></div>
       </section>
     </div>
   </main>
 
   <main id="lookup" class="view">
     <div class="tab2">
-      <section class="panel">
-        <h2>Tra cứu MCC</h2>
-        <div class="form-grid">
-          <input id="mccSearch" placeholder="Merchant, website hoặc MCC" oninput="searchMcc()" />
-          <select id="mccMethod" onchange="lookupMcc()"><option value="pos">pos</option><option value="online">online</option><option value="any">any</option></select>
+      <section class="panel lookup-panel">
+        <div class="card-top">
+          <h2>Tra cứu MCC</h2>
+          <button class="ghost" onclick="openMccModal()">Nhập MCC mới</button>
         </div>
-        <div style="margin-top:8px"><button onclick="lookupMcc()">Tra cứu chính xác</button></div>
-        <div id="mccLookup" class="answer muted" style="margin-top:10px">Nhập merchant để tra cứu.</div>
+        <div class="mcc-search-row">
+          <input id="mccSearch" placeholder="Merchant, website hoặc MCC" oninput="searchMcc()" />
+          <select id="mccMethod" onchange="lookupMcc()"><option value="any" selected>Any</option><option value="pos">POS (Offline)</option><option value="online">Online</option></select>
+        </div>
+        <div style="margin-top:8px"><button onclick="lookupMcc()">Tìm kiếm</button></div>
+        <div id="mccLookup" class="answer muted" style="margin-top:10px"></div>
         <h3 style="margin-top:16px">Kết quả gần đúng</h3>
         <div id="mccResults" class="search-results"></div>
-      </section>
-      <section class="panel">
-        <h2>Quy định thẻ</h2>
-        <div id="rules" class="rules"></div>
       </section>
     </div>
   </main>
@@ -145,10 +220,10 @@
       <div class="form-grid">
         <select id="txnCard"></select>
         <input id="txnAmount" placeholder="Số tiền" />
-        <input id="txnMerchant" placeholder="Merchant" />
+        <input id="txnMerchant" placeholder="Tên merchant" />
         <input id="txnMcc" placeholder="MCC nếu biết" />
-        <select id="txnMethod"><option value="online">online</option><option value="pos">pos</option></select>
-        <input id="txnDate" type="date" />
+        <select id="txnMethod"><option value="">Hình thức giao dịch</option><option value="online">Online</option><option value="pos">POS (Offline)</option></select>
+        <input id="txnDate" placeholder="Ngày giao dịch (dd/mm/yyyy)" />
       </div>
       <div style="display:flex; gap:8px; justify-content:flex-end; margin-top:12px">
         <button class="ghost" onclick="txnDialog.close()">Đóng</button>
@@ -159,16 +234,100 @@
 
   <dialog id="mccDialog">
     <div class="modal">
-      <header><h2>Thêm MCC</h2></header>
+      <header><h2>Nhập MCC mới</h2></header>
       <div class="form-grid">
         <input id="newMerchant" placeholder="Merchant name" />
         <input id="newMcc" placeholder="MCC" />
-        <select id="newMethod"><option value="pos">pos</option><option value="online">online</option><option value="any">any</option></select>
-        <input id="newNote" placeholder="Ghi chú" />
+        <select id="newMethod"><option value="pos">POS (Offline)</option><option value="online">Online</option><option value="any">Any</option></select>
+        <input id="newAddress" placeholder="Địa chỉ hoặc phạm vi áp dụng" />
+        <input id="newNote" placeholder="Ghi chú, VD: nguồn từ sao kê cá nhân / chỉ áp dụng chi nhánh này" />
       </div>
+      <div class="field-help" style="margin-top:10px">(*) Vui lòng kiểm tra thật kĩ, việc đóng góp MCC sai có thể dẫn tới tính toán hoàn tiền sai về sau.</div>
       <div style="display:flex; gap:8px; justify-content:flex-end; margin-top:12px">
         <button class="ghost" onclick="mccDialog.close()">Đóng</button>
         <button onclick="saveMcc()">Lưu MCC</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="deleteCardDialog">
+    <div class="modal">
+      <header><h2>Xoá thẻ</h2></header>
+      <div id="deleteCardWarning" style="line-height:1.45"></div>
+      <div style="display:flex; gap:8px; justify-content:flex-end; margin-top:14px">
+        <button class="danger" onclick="cancelDeleteCard()">Huỷ lệnh</button>
+        <button onclick="confirmDeleteCard()">Đồng ý</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="deleteTxnDialog">
+    <div class="modal">
+      <header><h2>Xoá giao dịch</h2></header>
+      <div id="deleteTxnWarning" style="line-height:1.45"></div>
+      <div style="display:flex; gap:8px; justify-content:flex-end; margin-top:14px">
+        <button class="danger" onclick="cancelDeleteTxn()">Huỷ lệnh</button>
+        <button onclick="confirmDeleteTxn()">Đồng ý</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="cardDialog">
+    <div class="modal">
+      <header><h2 id="cardDialogTitle">Thêm thẻ mới</h2></header>
+      <div class="form-grid">
+        <div class="field">
+          <label class="required" for="cardName">Tên thẻ</label>
+          <input id="cardName" placeholder="VD: VPBank Shopee" />
+        </div>
+        <div class="field">
+          <label for="cardAliases">Tên gọi khác</label>
+          <input id="cardAliases" placeholder="VD: vpbank, shopee card" />
+        </div>
+        <div class="field">
+          <label class="required" for="cardStatementDay">Ngày chốt sao kê</label>
+          <input id="cardStatementDay" type="number" min="1" max="31" placeholder="VD: 25" />
+        </div>
+        <div class="field">
+          <label class="required" for="cardCashbackDay">Ngày chốt hoàn tiền</label>
+          <input id="cardCashbackDay" type="number" min="1" max="31" placeholder="VD: 25" />
+        </div>
+        <div class="field">
+          <label for="cardCreditLimit">Hạn mức</label>
+          <input id="cardCreditLimit" placeholder="VD: 50.000.000" />
+        </div>
+        <div class="field">
+          <label for="cardMinSpend">Điều kiện chi tiêu tối thiểu</label>
+          <input id="cardMinSpend" placeholder="VD: 4.000.000" />
+        </div>
+        <div class="field">
+          <label for="cardPeriodCap">Tổng số tiền hoàn tối đa</label>
+          <input id="cardPeriodCap" placeholder="VD: 400.000" />
+        </div>
+        <div class="field">
+          <label for="cardRoundDown">Làm tròn cashback theo bội số</label>
+          <input id="cardRoundDown" placeholder="VD: 50.000" />
+        </div>
+        <div class="field full">
+          <label for="cardRulesText">Quy định hoàn tiền bằng text</label>
+          <textarea id="cardRulesText" style="min-height:110px" placeholder="VD: Hoàn 10% tối đa 400k/tháng cho Shopee và Shopee Food, hoàn 2% cho ăn uống, siêu thị và gọi xe. Chi tiêu tối thiểu 4tr mới hoàn tiền."></textarea>
+          <label for="cardRulesFile" style="margin-top:10px">Upload file quy định</label>
+          <input id="cardRulesFile" type="file" accept=".txt,.pdf,.docx" />
+          <div style="display:flex; gap:8px; justify-content:flex-end">
+            <button class="ghost" onclick="convertCardRulesText()">Chuyển thành JSON bằng LLM</button>
+          </div>
+          <div class="field-help">(*) Vì một số website ngân hàng chặn đọc nội dung tự động, nên bạn có thể lưu quy định về máy tính và upload lên tại đây. Hỗ trợ .docx, .pdf, .txt. LLM chỉ tạo bản nháp JSON, bạn vẫn nên kiểm tra lại trước khi lưu thẻ.</div>
+        </div>
+        <div class="field full">
+          <label class="required" for="cardRulesJson">Quy định hoàn tiền JSON</label>
+          <textarea id="cardRulesJson" style="min-height:170px"></textarea>
+          <div class="field-help">Nhập JSON array. Mỗi rule nên có: name, rate, mcc/merchants/categories/channels, cap_per_period nếu có.</div>
+        </div>
+      </div>
+      <div id="cardFormError" class="form-error"></div>
+      <div style="display:flex; gap:8px; justify-content:flex-end; margin-top:12px">
+        <button class="ghost" onclick="cardDialog.close()">Đóng</button>
+        <button onclick="saveCard()">Lưu thẻ</button>
       </div>
     </div>
   </dialog>
@@ -177,6 +336,23 @@
 let cards = [];
 let cardRules = [];
 let selectedCardId = null;
+let selectedPeriodDateByCard = {};
+let pendingAmountQuestion = '';
+let editCardMode = false;
+let pendingDeleteCardId = null;
+let pendingDeleteTxnId = null;
+let transactionById = {};
+let editingCardId = null;
+let txnSortByCard = {};
+let editingTxnId = null;
+let chatInputHistory = [];
+let chatHistoryIndex = -1;
+let chatHistoryDraft = '';
+const promptTemplates = {
+  '/ask': 'tôi sắp tiêu [x đồng] tại [merchant], hình thức [online/pos], nên dùng thẻ nào?',
+  '/input_trans': 'vui lòng nhập tên merchant, số tiền, hình thức (online/pos), mã mcc (nếu có), ngày chi tiêu, tên thẻ',
+  '/fact': '',
+};
 
 async function api(path, options) {
   const res = await fetch(path, options);
@@ -187,11 +363,137 @@ async function api(path, options) {
 function fmt(v) { return Math.round(Number(v || 0)).toLocaleString('vi-VN') + 'đ'; }
 function esc(v) { return String(v ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
 function pct(a, b) { return b ? Math.min(100, Math.round(a / b * 100)) : 100; }
+function isAmountOnly(v) { return /^\s*\d+(?:[.,]\d+)?\s*(k|nghìn|nghin|ngàn|ngan|tr|triệu|trieu|m)?\s*$/i.test(v || ''); }
+function slugify(v) {
+  return String(v || '')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase().replace(/đ/g, 'd')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+function parseMoneyInput(v) {
+  const raw = String(v || '').trim().toLowerCase();
+  if (!raw) return 0;
+  const compact = raw.replace(/\s+/g, '');
+  const multiplier = /(tr|triệu|trieu|m)$/.test(compact) ? 1000000 : /(k|nghìn|nghin|ngàn|ngan)$/.test(compact) ? 1000 : 1;
+  const numeric = compact.replace(/(vnd|vnđ|đ|d|tr|triệu|trieu|m|k|nghìn|nghin|ngàn|ngan)$/g, '');
+  const normalized = numeric.includes('.') && numeric.includes(',')
+    ? numeric.replace(/\./g, '').replace(',', '.')
+    : numeric.replace(/[.,](?=\d{3}(\D|$))/g, '').replace(',', '.');
+  const parsed = Number(normalized);
+  return Number.isFinite(parsed) ? Math.round(parsed * multiplier) : 0;
+}
+function fmtDate(v) {
+  const [y, m, d] = String(v || '').slice(0, 10).split('-');
+  return y && m && d ? `${d}/${m}/${y}` : esc(v || '');
+}
+function parseDateInput(v) {
+  const raw = String(v || '').trim();
+  if (!raw) return undefined;
+  let match = raw.match(/^(\d{1,2})[\/.-](\d{1,2})[\/.-](\d{4})$/);
+  if (match) {
+    const [, d, m, y] = match;
+    return `${y}-${m.padStart(2, '0')}-${d.padStart(2, '0')}`;
+  }
+  match = raw.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (match) return raw;
+  return raw;
+}
+function fmtPercent(v) {
+  const value = Number(v || 0);
+  if (!Number.isFinite(value)) return '0%';
+  return `${Number.isInteger(value) ? value : value.toFixed(2)}%`;
+}
+function fmtPaymentMethod(v) {
+  const method = String(v || '').toLowerCase();
+  if (method === 'pos') return 'POS';
+  if (method === 'online') return 'Online';
+  return esc(v || '');
+}
+function cardRule(cardId) { return cardRules.find(c => c.id === cardId) || {}; }
+function cashbackTarget(rule, progress) {
+  const ruleCaps = (rule.cashback_rules || []).map(r => Number(r.cap_per_period || 0)).filter(Boolean);
+  return Number(rule.period_cap || 0) || ruleCaps.reduce((sum, v) => sum + v, 0) || Math.max(Number(progress.potential_cashback || 0), Number(progress.earned_cashback || 0), 1);
+}
+function barColor(ratio) {
+  if (ratio >= 100) return '#23824f';
+  if (ratio >= 70) return '#83c77a';
+  if (ratio >= 30) return '#d99528';
+  return '#f0c84b';
+}
+function titleRuleName(value) {
+  const text = String(value || 'Quy định hoàn tiền').trim();
+  if (!text) return 'Quy định hoàn tiền';
+  const match = text.match(/^(\d+(?:[.,]\d+)?%)\s+(.+)$/);
+  if (match) {
+    const rest = match[2].trim();
+    return `${match[1]} ${rest.charAt(0).toUpperCase()}${rest.slice(1)}`;
+  }
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+function cashbackGroups(rule, progress) {
+  const rules = rule.cashback_rules || [];
+  if (!rules.length) return '<div class="muted">Thẻ này chưa khai báo nhóm cashback.</div>';
+  return rules.map(r => {
+    const key = r.cap_key || r.name;
+    const used = Number((progress.category_cashback || {})[key] || 0);
+    const cap = Number(r.cap_per_period || rule.period_cap || 0);
+    const target = cap || Math.max(used, 1);
+    return `<div class="mini"><div class="muted">${esc(titleRuleName(r.name))}</div><strong>${fmt(used)} / ${cap ? fmt(cap) : 'không cap'}</strong><div class="bar"><span style="width:${pct(used, target)}%;background:${barColor(pct(used, target))}"></span></div></div>`;
+  }).join('');
+}
+function shortRuleName(rule) {
+  return titleRuleName(String(rule.name || 'Quy định hoàn tiền')
+    .replace(/,\s*(?:trừ|tru|ngoại trừ|ngoai tru).+$/i, '')
+    .replace(/\s+MCC\s+\d{4}(?:\s*,?\s*)?$/i, '')
+    .trim());
+}
+function ruleMeta(rule, card) {
+  const rate = Number(rule.rate || 0) * 100;
+  const parts = [`Tỉ lệ ${Number.isInteger(rate) ? rate : rate.toFixed(2)}%`];
+  if ((rule.mcc || []).length) parts.push(`MCC ${(rule.mcc || []).map(esc).join(', ')}`);
+  if ((rule.channels || []).length) parts.push(`Kênh ${(rule.channels || []).map(esc).join(', ')}`);
+  if ((rule.excluded_mcc || []).length) parts.push(`Loại trừ MCC ${(rule.excluded_mcc || []).map(esc).join(', ')}`);
+  const cap = Number(rule.cap_per_period || card?.period_cap || 0);
+  if (cap && (card?.cashback_rules || []).length > 1) parts.push(`Hoàn tối đa ${fmt(cap)}`);
+  return parts.join(' | ');
+}
+
+function txnCashbackRate(txn) {
+  return Number(txn.cashback_rate || 0);
+}
+
+function defaultTxnSort() {
+  return { column: 'date', direction: 'desc' };
+}
+
+function sortedTransactions(cardId, txns) {
+  const sort = txnSortByCard[cardId] || defaultTxnSort();
+  const direction = sort.direction === 'asc' ? 1 : -1;
+  const valueFor = (txn) => {
+    if (sort.column === 'cashback_rate') return txnCashbackRate(txn);
+    if (['amount', 'cashback_amount'].includes(sort.column)) return Number(txn[sort.column] || 0);
+    return String(txn[sort.column] || '').toLowerCase();
+  };
+  return [...txns].sort((a, b) => {
+    const av = valueFor(a);
+    const bv = valueFor(b);
+    if (av < bv) return -1 * direction;
+    if (av > bv) return 1 * direction;
+    return String(b.date || '').localeCompare(String(a.date || ''));
+  });
+}
+
+function sortHeader(cardId, column, label) {
+  const sort = txnSortByCard[cardId] || defaultTxnSort();
+  const marker = sort.column === column ? (sort.direction === 'asc' ? ' ▲' : ' ▼') : '';
+  return `<button title="Sort theo ${esc(label)}" onclick="sortTransactions('${esc(cardId)}','${esc(column)}')">${esc(label)}${marker}</button>`;
+}
 
 function showTab(id) {
   document.querySelectorAll('.view').forEach(x => x.classList.toggle('active', x.id === id));
-  document.querySelectorAll('button.tab').forEach(x => x.classList.toggle('active', x.textContent.includes(id === 'advisor' ? 'Tư vấn' : 'Tra cứu')));
-  if (id === 'lookup') renderRules();
+  document.querySelectorAll('button.tab').forEach(x => x.classList.toggle('active', x.dataset.tab === id));
+  if (id === 'cards') renderRules();
 }
 
 async function loadDashboard() {
@@ -199,81 +501,570 @@ async function loadDashboard() {
   cards = progress.cards;
   cardRules = cardData.cards;
   selectedCardId = selectedCardId || cards[0]?.card_id;
-  document.getElementById('txnCard').innerHTML = cards.map(c => `<option value="${c.card_id}">${esc(c.card_name)}</option>`).join('');
+  document.getElementById('txnCard').innerHTML = `<option value="">Chọn thẻ</option>` + cards.map(c => `<option value="${c.card_id}">${esc(c.card_name)}</option>`).join('');
+  document.getElementById('ruleCardSelect').innerHTML = cardRules.map(c => `<option value="${c.id}">${esc(c.name)}</option>`).join('');
   renderCards();
   await loadCardDetail(selectedCardId);
   renderRules();
 }
 
 function renderCards() {
-  document.getElementById('cardList').innerHTML = cards.map(c => {
-    const target = c.min_total_spend || c.total_spend || 1;
+  const editModeButton = document.getElementById('editCardModeButton');
+  if (editModeButton) editModeButton.textContent = editCardMode ? 'Huỷ chỉnh sửa' : 'Chỉnh sửa';
+  const sortedCards = [...cards].sort((a, b) => {
+    const aRule = cardRule(a.card_id);
+    const bRule = cardRule(b.card_id);
+    const aTarget = cashbackTarget(aRule, a);
+    const bTarget = cashbackTarget(bRule, b);
+    const aCashback = Number(a.potential_cashback || a.earned_cashback || 0);
+    const bCashback = Number(b.potential_cashback || b.earned_cashback || 0);
+    return pct(bCashback, bTarget) - pct(aCashback, aTarget);
+  });
+  document.getElementById('cardList').innerHTML = sortedCards.map(c => {
+    const rule = cardRule(c.card_id);
+    const target = cashbackTarget(rule, c);
+    const displayCashback = Number(c.potential_cashback || c.earned_cashback || 0);
+    const ratio = pct(displayCashback, target);
+    const minSpendLine = c.min_total_spend
+      ? `<div class="muted requirement">(*) ${c.qualified
+          ? `Đã đạt mức yêu cầu chi tiêu ${fmt(c.min_total_spend)} để nhận hoàn tiền.`
+          : `Tổng chi tiêu: ${fmt(c.total_spend)} / ${fmt(c.min_total_spend)} (cần chi tiêu thêm ${fmt(c.min_spend_gap)} để nhận hoàn tiền).`
+        }</div>`
+      : '';
+    const editButton = editCardMode
+      ? `<button class="edit-gear" title="Chỉnh sửa thẻ" onclick="event.stopPropagation(); openEditCardModal('${esc(c.card_id)}')">⚙</button>`
+      : '';
+    const deleteButton = editCardMode
+      ? `<button class="delete-x" title="Xoá thẻ" onclick="event.stopPropagation(); requestDeleteCard('${esc(c.card_id)}')">X</button>`
+      : '';
     return `<div class="card-item ${c.card_id === selectedCardId ? 'active' : ''}" onclick="selectCard('${c.card_id}')">
-      <div class="card-top"><strong>${esc(c.card_name)}</strong><span class="metric">${fmt(c.earned_cashback)}</span></div>
-      <div class="muted">Chi tiêu ${fmt(c.total_spend)} | Tiềm năng ${fmt(c.potential_cashback)}</div>
-      <div class="bar"><span style="width:${pct(c.total_spend, target)}%"></span></div>
-      <div class="muted">${c.qualified ? 'Đã đạt điều kiện' : 'Cần thêm ' + fmt(c.min_spend_gap)}</div>
+      <div class="card-top"><strong class="card-title">${esc(c.card_name)}</strong><span class="metric">${fmt(displayCashback)} / ${fmt(target)}</span><span class="card-actions">${editButton}${deleteButton}</span></div>
+      <div class="bar"><span style="width:${ratio}%;background:${barColor(ratio)}"></span></div>
+      ${minSpendLine}
     </div>`;
   }).join('');
 }
 
 async function selectCard(cardId) {
+  editingTxnId = null;
   selectedCardId = cardId;
   renderCards();
   await loadCardDetail(cardId);
 }
 
-async function loadCardDetail(cardId) {
-  if (!cardId) return;
-  const data = await api('/api/card-detail?card_id=' + encodeURIComponent(cardId));
-  const p = data.progress;
-  document.getElementById('detailTitle').textContent = p.card_name;
-  const txns = data.transactions.filter(t => t.date >= p.period_start && t.date <= p.period_end);
-  document.getElementById('cardDetail').innerHTML = `
-    <div class="detail-grid">
-      <div class="mini"><div class="muted">Kỳ</div><strong>${p.period}</strong></div>
-      <div class="mini"><div class="muted">Đã chi</div><strong>${fmt(p.total_spend)}</strong></div>
-      <div class="mini"><div class="muted">Hoàn đạt</div><strong>${fmt(p.earned_cashback)}</strong></div>
-    </div>
-    <h3>Cashback theo nhóm</h3>
-    <div class="muted">${Object.entries(p.category_cashback).map(([k,v]) => `${esc(k)}: ${fmt(v)}`).join(' | ') || 'Chưa có giao dịch khớp rule.'}</div>
-    <h3 style="margin-top:14px">Giao dịch trong kỳ</h3>
-    <table class="txn-table"><thead><tr><th>Ngày</th><th>Merchant</th><th>MCC</th><th>PTTT</th><th>Số tiền</th></tr></thead>
-      <tbody>${txns.map(t => `<tr><td>${esc(t.date)}</td><td>${esc(t.merchant_name)}</td><td>${esc(t.mcc)}</td><td>${esc(t.payment_method)}</td><td>${fmt(t.amount)}</td></tr>`).join('') || '<tr><td colspan="5" class="muted">Chưa có giao dịch trong kỳ.</td></tr>'}</tbody></table>`;
+function toggleEditCardMode() {
+  editCardMode = !editCardMode;
+  renderCards();
 }
 
-function addMessage(role, text) {
+function requestDeleteCard(cardId) {
+  const card = cards.find(c => c.card_id === cardId) || cardRules.find(c => c.id === cardId);
+  pendingDeleteCardId = cardId;
+  const name = card?.card_name || card?.name || cardId;
+  document.getElementById('deleteCardWarning').textContent =
+    `Bạn chắc chắn muốn xoá thẻ ${name} chứ? Thẻ đã xoá sẽ không thể khôi phục.`;
+  deleteCardDialog.showModal();
+}
+
+function cancelDeleteCard() {
+  pendingDeleteCardId = null;
+  deleteCardDialog.close();
+}
+
+async function confirmDeleteCard() {
+  if (!pendingDeleteCardId) return;
+  const cardId = pendingDeleteCardId;
+  try {
+    await api('/api/cards/delete', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({card_id: cardId})
+    });
+    pendingDeleteCardId = null;
+    deleteCardDialog.close();
+    if (selectedCardId === cardId) selectedCardId = null;
+    delete selectedPeriodDateByCard[cardId];
+    await loadDashboard();
+  } catch (err) {
+    document.getElementById('deleteCardWarning').textContent = err.message;
+  }
+}
+
+async function loadCardDetail(cardId) {
+  if (!cardId) return;
+  const periodDate = selectedPeriodDateByCard[cardId];
+  const path = '/api/card-detail?card_id=' + encodeURIComponent(cardId) + (periodDate ? '&date=' + encodeURIComponent(periodDate) : '');
+  const data = await api(path);
+  const p = data.progress;
+  const rule = cardRule(cardId);
+  const groupedRules = (rule.cashback_rules || []).filter(r => r.cap_key || r.cap_per_period);
+  const groupSection = groupedRules.length > 1
+    ? `<h3>Cashback theo nhóm</h3><div class="detail-grid">${cashbackGroups(rule, p)}</div>`
+    : '';
+  document.getElementById('detailTitle').textContent = p.card_name;
+  const txns = sortedTransactions(cardId, data.transactions.filter(t => t.date >= p.period_start && t.date <= p.period_end));
+  txns.forEach(t => { transactionById[t.id] = t; });
+  const periods = data.periods || [];
+  const selectedPeriodDate = periodDate || p.period_end;
+  const periodOptions = periods.map(period => `<option value="${esc(period.date)}" ${period.date === selectedPeriodDate ? 'selected' : ''}>${esc(period.label)}</option>`).join('');
+  document.getElementById('cardDetail').innerHTML = `
+    <div class="detail-grid">
+      <div class="mini"><div class="muted">Kỳ sao kê</div><select onchange="changePeriod('${esc(cardId)}', this.value)">${periodOptions || `<option value="${esc(p.period_end)}">${fmtDate(p.period_start)} - ${fmtDate(p.period_end)}</option>`}</select></div>
+    </div>
+    ${groupSection}
+    <h3 style="margin-top:14px">Lịch sử giao dịch</h3>
+    <table class="txn-table"><thead><tr>
+      <th>${sortHeader(cardId, 'date', 'Ngày')}</th>
+      <th>${sortHeader(cardId, 'merchant_name', 'Merchant')}</th>
+      <th>${sortHeader(cardId, 'mcc', 'MCC')}</th>
+      <th>${sortHeader(cardId, 'payment_method', 'PTTT')}</th>
+      <th>${sortHeader(cardId, 'amount', 'Số tiền')}</th>
+      <th>${sortHeader(cardId, 'cashback_amount', 'Tiền hoàn')}</th>
+      <th>${sortHeader(cardId, 'cashback_rate', 'Tỉ lệ hoàn')}</th>
+      <th></th>
+    </tr></thead>
+      <tbody>${txns.map(t => renderTxnRow(t)).join('') || '<tr><td colspan="8" class="muted">Chưa có giao dịch trong kỳ này.</td></tr>'}</tbody></table>`;
+}
+
+async function changePeriod(cardId, periodDate) {
+  selectedPeriodDateByCard[cardId] = periodDate;
+  await loadCardDetail(cardId);
+}
+
+function renderTxnRow(t) {
+  if (editingTxnId === t.id) {
+    return `<tr>
+      <td><input id="editTxnDate" value="${fmtDate(t.date)}" placeholder="dd/mm/yyyy" /></td>
+      <td><input id="editTxnMerchant" value="${esc(t.merchant_name)}" /></td>
+      <td><input id="editTxnMcc" value="${esc(t.mcc || '')}" /></td>
+      <td><select id="editTxnMethod"><option value="online" ${t.payment_method === 'online' ? 'selected' : ''}>Online</option><option value="pos" ${t.payment_method === 'pos' ? 'selected' : ''}>POS (Offline)</option></select></td>
+      <td><input id="editTxnAmount" value="${Number(t.amount || 0)}" /></td>
+      <td>${fmt(t.cashback_amount)}</td>
+      <td>${fmtPercent(txnCashbackRate(t))}</td>
+      <td><div class="txn-actions"><button class="icon" title="Hoàn thành edit" onclick="saveTxnEdit('${esc(t.id)}')">✓</button><button class="danger icon" title="Bỏ qua edit" onclick="cancelEditTxn()">×</button></div></td>
+    </tr>`;
+  }
+  return `<tr>
+    <td>${fmtDate(t.date)}</td>
+    <td>${esc(t.merchant_name)}</td>
+    <td>${esc(t.mcc)}</td>
+    <td>${fmtPaymentMethod(t.payment_method)}</td>
+    <td>${fmt(t.amount)}</td>
+    <td>${fmt(t.cashback_amount)}</td>
+    <td>${fmtPercent(txnCashbackRate(t))}</td>
+    <td><div class="txn-actions"><button class="ghost icon" title="Edit giao dịch" onclick="editTxn('${esc(t.id)}')">⚙</button><button class="danger icon" title="Xoá giao dịch" onclick="deleteTxn('${esc(t.id)}')">🗑</button></div></td>
+  </tr>`;
+}
+
+async function editTxn(id) {
+  editingTxnId = id;
+  await loadCardDetail(selectedCardId);
+}
+
+async function cancelEditTxn() {
+  editingTxnId = null;
+  await loadCardDetail(selectedCardId);
+}
+
+async function saveTxnEdit(id) {
+  try {
+    const body = {
+      id,
+      date: parseDateInput(document.getElementById('editTxnDate').value),
+      merchant: document.getElementById('editTxnMerchant').value,
+      mcc: document.getElementById('editTxnMcc').value,
+      payment_method: document.getElementById('editTxnMethod').value,
+      amount: parseMoneyInput(document.getElementById('editTxnAmount').value)
+    };
+    await api('/api/transactions/update', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)});
+    editingTxnId = null;
+    await loadDashboard();
+  } catch (err) {
+    addMessage('agent', err.message);
+  }
+}
+
+async function sortTransactions(cardId, column) {
+  const current = txnSortByCard[cardId] || defaultTxnSort();
+  const direction = current.column === column && current.direction === 'desc' ? 'asc' : 'desc';
+  txnSortByCard[cardId] = { column, direction };
+  await loadCardDetail(cardId);
+}
+
+function actionButtons(intent) {
+  if (!/^(pending|confirm)_/.test(intent || '')) return '';
+  if (/^pending_/.test(intent || '')) {
+    return `<div class="action-row">
+      <button class="ghost" onclick="prepareSupplement(this)">Bổ sung thông tin</button>
+      <button class="danger" onclick="sendAction('Huỷ lệnh', this)">Huỷ lệnh</button>
+    </div>`;
+  }
+  if (intent === 'confirm_delete_transaction') {
+    return `<div class="action-row">
+      <button onclick="sendAction('Xác nhận', this)">Xác nhận</button>
+      <button class="danger" onclick="sendAction('Huỷ lệnh', this)">Huỷ lệnh</button>
+    </div>`;
+  }
+  return `<div class="action-row">
+    <button onclick="sendAction('Xác nhận', this)">Xác nhận</button>
+    <button class="ghost" onclick="prepareSupplement(this)">Bổ sung thông tin</button>
+    <button class="danger" onclick="sendAction('Huỷ lệnh', this)">Huỷ lệnh</button>
+  </div>`;
+}
+function addMessage(role, text, intent = '') {
   const box = document.getElementById('messages');
-  box.insertAdjacentHTML('beforeend', `<div class="msg ${role}">${formatMessage(text)}</div>`);
+  box.insertAdjacentHTML('beforeend', `<div class="msg ${role}">${formatMessage(text)}${role === 'agent' ? actionButtons(intent) : ''}</div>`);
   box.scrollTop = box.scrollHeight;
+}
+function resetPromptInput() {
+  const input = document.getElementById('question');
+  input.value = '';
+  input.dataset.prefix = '';
+  input.dataset.sample = '';
+  updatePromptGhost();
+}
+function resetChatUI(answer = 'Mình sẵn sàng tư vấn thẻ, ghi giao dịch và tra cứu MCC. Hãy hỏi một giao dịch sắp chi.') {
+  document.getElementById('messages').innerHTML = '';
+  pendingAmountQuestion = '';
+  resetPromptInput();
+  addMessage('agent', answer);
 }
 function formatMessage(text) {
   const escaped = esc(text || '');
-  return escaped.replace(/\n\n_Note: ([\s\S]+?)_$/m, '<span class="msg-note">Note: $1</span>');
+  return escaped.replace(/(?:\n\n|\n)_Note: ([\s\S]*?)_/g, '<span class="msg-note">Note: $1</span>');
 }
-function setPrompt(text) { document.getElementById('question').value = text; document.getElementById('question').focus(); }
+function updatePromptGhost() {
+  const input = document.getElementById('question');
+  const wrap = document.getElementById('promptWrap');
+  const ghost = document.getElementById('promptGhost');
+  const hint = document.getElementById('promptSampleHint');
+  const value = input.value;
+  const typedPrefix = Object.keys(promptTemplates).find(prefix => value === prefix || value.startsWith(`${prefix} `)) || '';
+  const prefix = input.dataset.prefix || typedPrefix;
+  const sample = input.dataset.sample || (typedPrefix ? promptTemplates[typedPrefix] : '');
+  const show = prefix && sample && (value === prefix || value === `${prefix} `);
+  wrap.classList.toggle('has-ghost', Boolean(show));
+  ghost.innerHTML = show
+    ? `<span class="ghost-prefix">${esc(value)}</span><span class="ghost-sample">${esc(value.endsWith(' ') ? sample : ' ' + sample)}</span>`
+    : '';
+  hint.innerHTML = prefix && sample
+    ? `Ví dụ: <code>${esc(prefix)} ${esc(sample)}</code>`
+    : '';
+}
+function setPromptTemplate(prefix) {
+  const input = document.getElementById('question');
+  input.dataset.prefix = prefix;
+  input.dataset.sample = promptTemplates[prefix] || '';
+  input.value = `${prefix} `;
+  updatePromptGhost();
+  input.focus();
+}
+function setPrompt(text) {
+  const input = document.getElementById('question');
+  input.dataset.prefix = '';
+  input.dataset.sample = '';
+  input.value = text;
+  updatePromptGhost();
+  input.focus();
+}
+function setChatInputValue(value) {
+  const input = document.getElementById('question');
+  input.dataset.prefix = '';
+  input.dataset.sample = '';
+  input.value = value;
+  updatePromptGhost();
+  requestAnimationFrame(() => input.setSelectionRange(input.value.length, input.value.length));
+}
+function rememberChatInput(question) {
+  const text = (question || '').trim();
+  if (!text) return;
+  if (chatInputHistory[chatInputHistory.length - 1] !== text) {
+    chatInputHistory.push(text);
+    chatInputHistory = chatInputHistory.slice(-5);
+  }
+  chatHistoryIndex = -1;
+  chatHistoryDraft = '';
+}
+function navigateChatHistory(direction) {
+  if (!chatInputHistory.length) return;
+  const input = document.getElementById('question');
+  if (chatHistoryIndex === -1) chatHistoryDraft = input.value;
+  if (direction < 0) {
+    chatHistoryIndex = chatHistoryIndex === -1
+      ? chatInputHistory.length - 1
+      : Math.max(0, chatHistoryIndex - 1);
+  } else {
+    chatHistoryIndex = chatHistoryIndex === -1
+      ? -1
+      : Math.min(chatInputHistory.length, chatHistoryIndex + 1);
+  }
+  setChatInputValue(chatHistoryIndex >= 0 && chatHistoryIndex < chatInputHistory.length
+    ? chatInputHistory[chatHistoryIndex]
+    : chatHistoryDraft);
+  if (chatHistoryIndex >= chatInputHistory.length) {
+    chatHistoryIndex = -1;
+    chatHistoryDraft = '';
+  }
+}
+function prepareSupplement(source = null) {
+  disableActionRow(source);
+  const input = document.getElementById('question');
+  input.dataset.prefix = '';
+  input.dataset.sample = '';
+  updatePromptGhost();
+  input.placeholder = 'Nhập thông tin cần bổ sung hoặc thay đổi cho bản nháp hiện tại...';
+  input.focus();
+}
+function disableActionRow(source) {
+  const row = source?.closest?.('.action-row');
+  if (!row) return;
+  row.querySelectorAll('button').forEach(btn => {
+    btn.disabled = true;
+    btn.style.opacity = '0.55';
+    btn.style.cursor = 'default';
+  });
+}
+async function sendAction(question, source = null) {
+  disableActionRow(source);
+  addMessage('user', question);
+  try {
+    const data = await api('/api/ask', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({question})});
+    if (data.intent === 'clear_chat') {
+      resetChatUI();
+      await loadDashboard();
+      return;
+    }
+    if (data.answer) addMessage('agent', data.answer, data.intent);
+    await loadDashboard();
+  } catch (err) { addMessage('agent', err.message); }
+}
 async function ask() {
   const question = document.getElementById('question').value.trim();
   if (!question) return;
+  if (question.toLowerCase() === '/clear') {
+    rememberChatInput(question);
+    await clearChat();
+    return;
+  }
+  const outgoingQuestion = pendingAmountQuestion && isAmountOnly(question)
+    ? `${pendingAmountQuestion} ${question}`
+    : question;
   addMessage('user', question);
-  document.getElementById('question').value = '';
+  rememberChatInput(question);
+  resetPromptInput();
   try {
-    const data = await api('/api/ask', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({question})});
-    addMessage('agent', data.answer);
+    const data = await api('/api/ask', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({question: outgoingQuestion})});
+    if (data.intent === 'clear_chat') {
+      resetChatUI();
+      await loadDashboard();
+      return;
+    }
+    if (data.intent === 'pending_amount') pendingAmountQuestion = question;
+    else pendingAmountQuestion = '';
+    addMessage('agent', data.answer, data.intent);
     await loadDashboard();
   } catch (err) { addMessage('agent', err.message); }
 }
 
-function openTxnModal() { txnDialog.showModal(); }
-function openMccModal() { mccDialog.showModal(); }
+async function sendPastedImage(file) {
+  if (!file || !file.type.startsWith('image/')) return;
+  if (file.size > 6 * 1024 * 1024) {
+    addMessage('agent', 'Ảnh hơi lớn. Bạn crop phần giao dịch hoặc dùng ảnh dưới 6MB giúp mình nhé.');
+    return;
+  }
+  const note = document.getElementById('question').value.trim();
+  addMessage('user', note ? `Đã paste ảnh giao dịch. Ghi chú: ${note}` : 'Đã paste ảnh giao dịch.');
+  resetPromptInput();
+  const imageDataUrl = await new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result);
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+  try {
+    const data = await api('/api/ask', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({question: note || 'Đọc ảnh giao dịch và tạo bản nháp nhập giao dịch.', image_data_url: imageDataUrl})
+    });
+    if (data.answer) addMessage('agent', data.answer, data.intent);
+    await loadDashboard();
+  } catch (err) {
+    addMessage('agent', err.message);
+  }
+}
+
+async function clearChat() {
+  try {
+    await api('/api/ask', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({question:'/clear'})});
+    resetChatUI();
+    await loadDashboard();
+  } catch (err) { addMessage('agent', err.message); }
+}
+
+function openTxnModal() {
+  document.getElementById('txnCard').value = '';
+  document.getElementById('txnAmount').value = '';
+  document.getElementById('txnMerchant').value = '';
+  document.getElementById('txnMcc').value = '';
+  document.getElementById('txnMethod').value = '';
+  document.getElementById('txnDate').value = '';
+  txnDialog.showModal();
+}
+function openMccModal() {
+  document.getElementById('newMerchant').value = '';
+  document.getElementById('newMcc').value = '';
+  document.getElementById('newMethod').value = 'pos';
+  document.getElementById('newAddress').value = '';
+  document.getElementById('newNote').value = '';
+  mccDialog.showModal();
+}
+function defaultCardRuleJson() {
+  return JSON.stringify([
+    {
+      name: "10% Shopee",
+      rate: 0.1,
+      merchants: ["shopee"],
+      channels: ["online"],
+      cap_per_period: 400000,
+      cap_key: "shopee"
+    }
+  ], null, 2);
+}
+function openCardModal() {
+  editingCardId = null;
+  document.getElementById('cardDialogTitle').textContent = 'Thêm thẻ mới';
+  document.getElementById('cardFormError').textContent = '';
+  document.getElementById('cardName').value = '';
+  document.getElementById('cardAliases').value = '';
+  document.getElementById('cardStatementDay').value = '';
+  document.getElementById('cardCashbackDay').value = '';
+  document.getElementById('cardCreditLimit').value = '';
+  document.getElementById('cardMinSpend').value = '';
+  document.getElementById('cardPeriodCap').value = '';
+  document.getElementById('cardRoundDown').value = '';
+  document.getElementById('cardRulesText').value = '';
+  document.getElementById('cardRulesFile').value = '';
+  document.getElementById('cardRulesJson').value = defaultCardRuleJson();
+  cardDialog.showModal();
+}
+function openEditCardModal(cardId) {
+  const card = cardRules.find(c => c.id === cardId);
+  if (!card) return;
+  editingCardId = card.id;
+  document.getElementById('cardDialogTitle').textContent = `Chỉnh sửa ${card.name}`;
+  document.getElementById('cardFormError').textContent = '';
+  document.getElementById('cardName').value = card.name || '';
+  document.getElementById('cardAliases').value = (card.aliases || []).join(', ');
+  document.getElementById('cardStatementDay').value = card.statement?.close_day || '';
+  document.getElementById('cardCashbackDay').value = card.cashback_close_day || '';
+  document.getElementById('cardCreditLimit').value = card.credit_limit || '';
+  document.getElementById('cardMinSpend').value = card.min_total_spend || '';
+  document.getElementById('cardPeriodCap').value = card.period_cap || '';
+  document.getElementById('cardRoundDown').value = card.cashback_round_down_to || '';
+  document.getElementById('cardRulesText').value = '';
+  document.getElementById('cardRulesFile').value = '';
+  document.getElementById('cardRulesJson').value = JSON.stringify(card.cashback_rules || [], null, 2);
+  cardDialog.showModal();
+}
+function validateDay(value, label) {
+  const day = Number(value);
+  if (!Number.isInteger(day) || day < 1 || day > 31) throw new Error(`${label} phải là số từ 1 đến 31.`);
+  return day;
+}
+async function saveCard() {
+  const errorBox = document.getElementById('cardFormError');
+  errorBox.textContent = '';
+  try {
+    const name = document.getElementById('cardName').value.trim();
+    if (!name) throw new Error('Tên thẻ là thông tin bắt buộc.');
+    const statementDay = validateDay(document.getElementById('cardStatementDay').value, 'Ngày chốt sao kê');
+    const cashbackDay = validateDay(document.getElementById('cardCashbackDay').value, 'Ngày chốt hoàn tiền');
+    let rules;
+    try {
+      rules = JSON.parse(document.getElementById('cardRulesJson').value);
+    } catch {
+      throw new Error('Quy định hoàn tiền phải là JSON hợp lệ.');
+    }
+    if (!Array.isArray(rules) || !rules.length) throw new Error('Quy định hoàn tiền phải có ít nhất 1 rule.');
+    rules.forEach((rule, index) => {
+      if (!rule.name) throw new Error(`Rule #${index + 1} thiếu name.`);
+      if (typeof rule.rate !== 'number' || rule.rate <= 0) throw new Error(`Rule #${index + 1} thiếu rate hợp lệ, ví dụ 0.1 cho 10%.`);
+    });
+    const aliases = document.getElementById('cardAliases').value
+      .split(',')
+      .map(v => v.trim())
+      .filter(Boolean);
+    const payload = {
+      id: editingCardId || slugify(name),
+      name,
+      aliases,
+      statement: { type: 'statement_cycle', close_day: statementDay },
+      cashback_close_day: cashbackDay,
+      credit_limit: parseMoneyInput(document.getElementById('cardCreditLimit').value),
+      min_total_spend: parseMoneyInput(document.getElementById('cardMinSpend').value),
+      period_cap: parseMoneyInput(document.getElementById('cardPeriodCap').value) || null,
+      cashback_round_down_to: parseMoneyInput(document.getElementById('cardRoundDown').value),
+      cashback_rules: rules
+    };
+    const data = await api('/api/cards', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload)});
+    editingCardId = null;
+    selectedCardId = data.card.id;
+    cardDialog.close();
+    await loadDashboard();
+    showTab('cards');
+  } catch (err) {
+    errorBox.textContent = err.message;
+  }
+}
+async function convertCardRulesText() {
+  const errorBox = document.getElementById('cardFormError');
+  const text = document.getElementById('cardRulesText').value.trim();
+  const file = document.getElementById('cardRulesFile').files[0];
+  errorBox.textContent = '';
+  if (!text && !file) {
+    errorBox.textContent = 'Bạn nhập mô tả quy định hoàn tiền hoặc upload file quy định trước nhé.';
+    return;
+  }
+  try {
+    errorBox.textContent = file ? 'Đang đọc file quy định và chuyển thành JSON...' : 'Đang chuyển mô tả thành JSON...';
+    const form = new FormData();
+    form.append('text', text);
+    if (file) form.append('ruleFile', file);
+    const data = await api('/api/cards/parse-rules', { method:'POST', body: form });
+    if (!data.cashback_rules || !data.cashback_rules.length) {
+      throw new Error('Mình chưa convert được rule. Bạn viết rõ tỉ lệ hoàn, danh mục/MCC/merchant và giới hạn hoàn tiền giúp mình.');
+    }
+    document.getElementById('cardRulesJson').value = JSON.stringify(data.cashback_rules, null, 2);
+    if (data.period_cap) document.getElementById('cardPeriodCap').value = data.period_cap;
+    if (data.min_total_spend) document.getElementById('cardMinSpend').value = data.min_total_spend;
+    if (data.cashback_round_down_to) document.getElementById('cardRoundDown').value = data.cashback_round_down_to;
+    const sourceText = data.source_file ? ` từ file ${data.source_file} (${data.file_text_length || 0} ký tự)` : '';
+    errorBox.textContent = data.source === 'llm'
+      ? `Đã chuyển thành JSON bằng LLM${sourceText}. Bạn kiểm tra lại trước khi lưu thẻ.`
+      : `Đã tạo JSON bằng parser dự phòng${sourceText}. Bạn kiểm tra kỹ trước khi lưu thẻ.`;
+  } catch (err) {
+    errorBox.textContent = err.message;
+  }
+}
 async function saveTxn() {
+  const cardId = document.getElementById('txnCard').value;
+  const method = document.getElementById('txnMethod').value;
+  if (!cardId) {
+    addMessage('agent', 'Bạn chọn thẻ trước khi lưu giao dịch nhé.');
+    return;
+  }
+  if (!method) {
+    addMessage('agent', 'Bạn chọn hình thức giao dịch Online hoặc POS (Offline) trước khi lưu nhé.');
+    return;
+  }
   const body = {
-    card_id: document.getElementById('txnCard').value,
+    card_id: cardId,
     amount: Number(document.getElementById('txnAmount').value),
     merchant: document.getElementById('txnMerchant').value,
     mcc: document.getElementById('txnMcc').value,
-    channel: document.getElementById('txnMethod').value,
-    date: document.getElementById('txnDate').value || undefined
+    channel: method,
+    date: parseDateInput(document.getElementById('txnDate').value)
   };
   try {
     const data = await api('/api/transactions', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)});
@@ -283,11 +1074,47 @@ async function saveTxn() {
   } catch (err) { addMessage('agent', err.message); }
 }
 
+async function deleteTxn(id) {
+  if (!id) return;
+  pendingDeleteTxnId = id;
+  const txn = transactionById[id] || {};
+  document.getElementById('deleteTxnWarning').innerHTML = `Bạn chắc chắn muốn xoá giao dịch này chứ?<br>
+    - Ngày: ${esc(fmtDate(txn.date || ''))}<br>
+    - Merchant: ${esc(txn.merchant_name || txn.merchant || 'chưa rõ')}<br>
+    - MCC: ${esc(txn.mcc || 'chưa rõ')}<br>
+    - Hình thức: ${esc(fmtPaymentMethod(txn.payment_method || ''))}<br>
+    - Số tiền: ${esc(fmt(txn.amount || 0))}<br><br>
+    Giao dịch đã xoá sẽ không thể khôi phục.`;
+  deleteTxnDialog.showModal();
+}
+
+function cancelDeleteTxn() {
+  pendingDeleteTxnId = null;
+  deleteTxnDialog.close();
+}
+
+async function confirmDeleteTxn() {
+  if (!pendingDeleteTxnId) return;
+  try {
+    const data = await api('/api/transactions/delete', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({id: pendingDeleteTxnId})
+    });
+    pendingDeleteTxnId = null;
+    deleteTxnDialog.close();
+    await loadDashboard();
+  } catch (err) {
+    document.getElementById('deleteTxnWarning').textContent = err.message || 'Không tìm thấy giao dịch bạn yêu cầu. Vui lòng xoá thủ công trong mục Lịch sử giao dịch.';
+  }
+}
+
 async function saveMcc() {
   const body = {
     merchant_name: document.getElementById('newMerchant').value,
     mcc: document.getElementById('newMcc').value,
     payment_method: document.getElementById('newMethod').value,
+    address: document.getElementById('newAddress').value,
     note: document.getElementById('newNote').value
   };
   try {
@@ -304,24 +1131,70 @@ async function lookupMcc() {
   const method = document.getElementById('mccMethod').value;
   if (!q) return;
   const data = await api(`/api/merchant-mcc/lookup?merchant=${encodeURIComponent(q)}&payment_method=${encodeURIComponent(method)}`);
-  document.getElementById('mccLookup').innerHTML = data.match ? `<strong>${esc(data.match.merchant_name)}</strong><br>MCC <code>${esc(data.match.mcc)}</code> | ${esc(data.match.payment_method)}<br><span class="muted">${esc(data.match.address || '')}</span>` : 'Không tìm thấy trong database MCC.';
+  document.getElementById('mccLookup').innerHTML = data.match ? `<strong>${esc(data.match.merchant_name)}</strong><br>MCC <code>${esc(data.match.mcc)}</code> | ${fmtPaymentMethod(data.match.payment_method)}<br><span class="muted">${esc(data.match.address || '')}</span>` : 'Không tìm thấy trong database MCC.';
 }
 async function searchMcc() {
   const q = document.getElementById('mccSearch').value.trim();
   const data = await api('/api/merchant-mcc/search?q=' + encodeURIComponent(q));
-  document.getElementById('mccResults').innerHTML = data.rows.map(r => `<div class="result"><strong>${esc(r.merchant_name)}</strong><div>MCC <code>${esc(r.mcc)}</code> | ${esc(r.payment_method)}</div><div class="muted">${esc(r.merchant_full_name || '')} ${esc(r.address || '')}</div></div>`).join('');
+  document.getElementById('mccResults').innerHTML = data.rows.map(r => `<div class="result"><strong>${esc(r.merchant_name)}</strong><div>MCC <code>${esc(r.mcc)}</code> | ${fmtPaymentMethod(r.payment_method)}</div><div class="muted">${esc(r.merchant_full_name || '')} ${esc(r.address || '')}</div></div>`).join('');
 }
 function renderRules() {
-  document.getElementById('rules').innerHTML = cardRules.map(c => `<div class="result"><h3>${esc(c.name)}</h3>
-    <div class="muted">Chốt sao kê: ${esc(c.statement?.close_day || 'tháng dương lịch')} | Chốt hoàn: ${esc(c.cashback_close_day || '-')} | Hạn mức: ${fmt(c.credit_limit)}</div>
-    <div class="muted">Chi tiêu tối thiểu: ${fmt(c.min_total_spend)} | Cap kỳ: ${c.period_cap ? fmt(c.period_cap) : 'không khai báo'} | Làm tròn cashback: ${c.cashback_round_down_to ? fmt(c.cashback_round_down_to) : 'không'}</div>
-    <ul>${(c.cashback_rules || []).map(r => `<li><strong>${esc(r.name)}</strong><br><span class="muted">Rate ${Math.round(Number(r.rate || 0) * 100)}% | MCC ${(r.mcc || []).map(esc).join(', ') || '-'} | Kênh ${(r.channels || []).map(esc).join(', ') || '-'} | Loại trừ MCC ${(r.excluded_mcc || []).map(esc).join(', ') || '-'}</span></li>`).join('')}</ul>
-  </div>`).join('');
+  const select = document.getElementById('ruleCardSelect');
+  const selectedId = select.value || cardRules[0]?.id;
+  if (selectedId && select.value !== selectedId) select.value = selectedId;
+  const c = cardRules.find(card => card.id === selectedId) || cardRules[0];
+  if (!c) {
+    document.getElementById('rules').innerHTML = '<div class="muted">Chưa có thẻ.</div>';
+    return;
+  }
+  const statementText = c.statement?.type === 'calendar_month'
+    ? 'tháng dương lịch'
+    : `${esc(c.statement?.close_day || '-')}`;
+  const infoLines = [
+    `Ngày chốt sao kê: ${statementText}`,
+    `Ngày chốt hoàn tiền: ${esc(c.cashback_close_day || '-')}`,
+  ];
+  if (Number(c.min_total_spend || 0) > 0) {
+    infoLines.push(`Điều kiện chi tiêu tối thiểu: ${fmt(c.min_total_spend)}`);
+  }
+  if (Number(c.period_cap || 0) > 0) {
+    infoLines.push(`Tổng số tiền hoàn tối đa: ${fmt(c.period_cap)}`);
+  }
+  if (Number(c.cashback_round_down_to || 0) > 0) {
+    infoLines.push(`Làm tròn cashback theo bội số ${fmt(c.cashback_round_down_to)}`);
+  }
+  document.getElementById('rules').innerHTML = `<div class="result">
+    <div class="card-top"><h3>${esc(c.name)}</h3><span class="muted">Cập nhật ngày: ${fmtDate(c.updated_at)}</span></div>
+    <div class="muted">${infoLines.join(' | ')}</div>
+    <ul>${(c.cashback_rules || []).map(r => `<li><strong>${esc(shortRuleName(r))}</strong><br><span class="muted">${ruleMeta(r, c)}</span></li>`).join('')}</ul>
+  </div>`;
 }
 
-document.getElementById('question').addEventListener('keydown', e => { if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) ask(); });
+document.getElementById('question').addEventListener('input', updatePromptGhost);
+document.getElementById('question').addEventListener('keydown', e => {
+  if (e.key === 'ArrowUp' && !e.shiftKey && !e.ctrlKey && !e.altKey && !e.metaKey) {
+    e.preventDefault();
+    navigateChatHistory(-1);
+    return;
+  }
+  if (e.key === 'ArrowDown' && !e.shiftKey && !e.ctrlKey && !e.altKey && !e.metaKey) {
+    e.preventDefault();
+    navigateChatHistory(1);
+    return;
+  }
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    ask();
+  }
+});
+document.getElementById('question').addEventListener('paste', e => {
+  const imageItem = Array.from(e.clipboardData?.items || []).find(item => item.type.startsWith('image/'));
+  if (!imageItem) return;
+  e.preventDefault();
+  sendPastedImage(imageItem.getAsFile());
+});
 loadDashboard().then(() => {
-  addMessage('agent', 'Mình sẵn sàng tư vấn thẻ, ghi giao dịch và tra cứu MCC. Hãy hỏi một giao dịch sắp chi.');
+  resetChatUI();
   searchMcc();
 });
 </script>

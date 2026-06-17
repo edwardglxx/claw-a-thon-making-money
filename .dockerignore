@@ -5,5 +5,4 @@ __pycache__/
 .greennode.json
 .agentbase/
 greennode-agentbase-skills/
-*.db
 *.db-journal

@@ -1,0 +1,6378 @@
+{
+  "mcc_categories": [
+    {
+      "mcc": "0010",
+      "description_en": "tourist attr and exhibition",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "0046",
+      "description_en": "Clothing rental - costumes",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "0070",
+      "description_en": "Hotels,Motels,Resorts-Lodgin",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3000",
+      "description_en": "United Airlines",
+      "description_vi": "Hãng hàng không - UNITED AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3001",
+      "description_en": "American Airlines",
+      "description_vi": "Hãng hàng không - AMERICAN AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3002",
+      "description_en": "Pan American",
+      "description_vi": "Hãng hàng không - PAN AMERICAN",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3003",
+      "description_en": "Eurofly Airlines",
+      "description_vi": "Hãng hàng không - EUROFLY AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3004",
+      "description_en": "Dragon Airlines",
+      "description_vi": "Hãng hàng không - DRAGON AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3005",
+      "description_en": "British Airways",
+      "description_vi": "Hãng hàng không - BRITISH AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3006",
+      "description_en": "Japan Air Lines",
+      "description_vi": "Hãng hàng không - JAPAN AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3007",
+      "description_en": "Air France",
+      "description_vi": "Hãng hàng không - AIR FRANCE",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3008",
+      "description_en": "Lufthansa",
+      "description_vi": "Hãng hàng không - LUFTHANSA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3009",
+      "description_en": "Air Canada",
+      "description_vi": "Hãng hàng không - AIR CANADA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3010",
+      "description_en": "KLM",
+      "description_vi": "Hãng hàng không - KLM (ROYAL DUTCH AIRLINES)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3011",
+      "description_en": "AeroFlot",
+      "description_vi": "Hãng hàng không - AEROFLOT",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3012",
+      "description_en": "Qantas",
+      "description_vi": "Hãng hàng không - QANTAS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3013",
+      "description_en": "Alitalia",
+      "description_vi": "Hãng hàng không - ALITALIA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3014",
+      "description_en": "Saudi Arabian Airlines",
+      "description_vi": "Hãng hàng không - SAUDI ARABIAN AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3015",
+      "description_en": "Swiss International Airlines - SWISSINTLAIR",
+      "description_vi": "Hãng hàng không - SWISS INTERNATIONAL AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3016",
+      "description_en": "SAS",
+      "description_vi": "Hãng hàng không - SAS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3017",
+      "description_en": "South African Airway",
+      "description_vi": "Hãng hàng không - SOUTH AFRICAN AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3018",
+      "description_en": "Varig (Brazil)",
+      "description_vi": "Hãng hàng không - VARIG (BRAZIL)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3019",
+      "description_en": "German Wings",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3020",
+      "description_en": "Air India",
+      "description_vi": "Hãng hàng không - AIR-INDIA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3021",
+      "description_en": "Air Algerie",
+      "description_vi": "Hãng hàng không - AIR ALGERIE",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3022",
+      "description_en": "PAL AIR",
+      "description_vi": "Hãng hàng không - PHILIPPINE AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3023",
+      "description_en": "Mexicana",
+      "description_vi": "Hãng hàng không - MEXICANA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3024",
+      "description_en": "Pakistan International",
+      "description_vi": "Hãng hàng không - PAKISTAN INTERNATIONAL",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3025",
+      "description_en": "Air New Zealand Ltd.",
+      "description_vi": "Hãng hàng không - AIR NEW ZEALAND",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3026",
+      "description_en": "Emirates Airlines",
+      "description_vi": "Hãng hàng không - EMIRATES AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3027",
+      "description_en": "UTA/InterAir",
+      "description_vi": "Hãng hàng không - UTA/INTERAIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3028",
+      "description_en": "Air Malta",
+      "description_vi": "Hãng hàng không - AIR MALTA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3029",
+      "description_en": "SN Brussels Airlines - SN BRUSSELS",
+      "description_vi": "Hãng hàng không - SN BRUSSELS AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3030",
+      "description_en": "Aerolineas Argentinas",
+      "description_vi": "Hãng hàng không - AEROLINEAS ARGENTINAS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3031",
+      "description_en": "Olympic Airways",
+      "description_vi": "Hãng hàng không - OLYMPIC AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3032",
+      "description_en": "El Al",
+      "description_vi": "Hãng hàng không - EL AL",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3033",
+      "description_en": "Ansett Airlines",
+      "description_vi": "Hãng hàng không - ANSETT AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3034",
+      "description_en": "ETIHADAIR",
+      "description_vi": "Hãng hàng không - ETIHAD AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3035",
+      "description_en": "TAP (Portugal)",
+      "description_vi": "Hãng hàng không - TAP (PORTUGAL)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3036",
+      "description_en": "VASP (Brazil)",
+      "description_vi": "Hãng hàng không - VASP (BRAZIL)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3037",
+      "description_en": "EgyptAir",
+      "description_vi": "Hãng hàng không - EGYPTAIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3038",
+      "description_en": "Kuwait Airways",
+      "description_vi": "Hãng hàng không - KUWAIT AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3039",
+      "description_en": "Avianca",
+      "description_vi": "Hãng hàng không - AVIANCA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3040",
+      "description_en": "GulfAir (Bahrain)",
+      "description_vi": "Hãng hàng không - GULF AIR (BAHRAIN)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3041",
+      "description_en": "Balkan-Bulgarian",
+      "description_vi": "Hãng hàng không - BALKAN-BULGARIAN AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3042",
+      "description_en": "FinnAir",
+      "description_vi": "Hãng hàng không - FINNAIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3043",
+      "description_en": "Aer Lingus",
+      "description_vi": "Hãng hàng không - AER LINGUS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3044",
+      "description_en": "Air Lanka",
+      "description_vi": "Hãng hàng không - AIR LANKA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3045",
+      "description_en": "Nigeria Airways",
+      "description_vi": "Hãng hàng không - NIGERIA AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3046",
+      "description_en": "Cruzeiro do Sul (Bra)",
+      "description_vi": "Hãng hàng không - CRUZEIRO DO SUL (BRAZIL)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3047",
+      "description_en": "THY (Turkey)",
+      "description_vi": "Hãng hàng không - THY (TURKEY)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3048",
+      "description_en": "Royal Air Maroc",
+      "description_vi": "Hãng hàng không - ROYAL AIR MAROC",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3049",
+      "description_en": "Tunis Air",
+      "description_vi": "Hãng hàng không - TUNIS AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3050",
+      "description_en": "Icelandair",
+      "description_vi": "Hãng hàng không - ICELANDAIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3051",
+      "description_en": "Austrian Airlines",
+      "description_vi": "Hãng hàng không - AUSTRIAN AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3052",
+      "description_en": "LANAIR",
+      "description_vi": "Hãng hàng không - LAN AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3053",
+      "description_en": "AVIACO (Spain)",
+      "description_vi": "Hãng hàng không - AVIACO (SPAIN)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3054",
+      "description_en": "Ladeco (Chile)",
+      "description_vi": "Hãng hàng không - LADECO (CHILE)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3055",
+      "description_en": "LAB (Bolivia)",
+      "description_vi": "Hãng hàng không - LAB (BOLIVIA)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3056",
+      "description_en": "Jet Airways—JET AIR",
+      "description_vi": "Hãng hàng không - JET AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3057",
+      "description_en": "Virgin America—VIR AMER",
+      "description_vi": "Hãng hàng không - VIRGIN AMERICA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3058",
+      "description_en": "Delta",
+      "description_vi": "Hãng hàng không - DELTA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3059",
+      "description_en": "DBA Airlines-DBA AIR",
+      "description_vi": "Hãng hàng không - DBA AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3060",
+      "description_en": "NWA Air",
+      "description_vi": "Hãng hàng không - NORTHWEST",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3061",
+      "description_en": "Continental",
+      "description_vi": "Hãng hàng không - CONTINENTAL",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3062",
+      "description_en": "Hapag-Lloyd Express - HLX",
+      "description_vi": "Hãng hàng không - HAPAG-LLOYD EXPRESS AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3063",
+      "description_en": "US Airways",
+      "description_vi": "Hãng hàng không - US AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3064",
+      "description_en": "Adria Airways",
+      "description_vi": "Hãng hàng không - ADRIA AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3065",
+      "description_en": "Airinter (AirInternational)",
+      "description_vi": "Hãng hàng không - AIRINTER",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3066",
+      "description_en": "Southwest",
+      "description_vi": "Hãng hàng không - SOUTHWEST",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3067",
+      "description_en": "Vanguard Airlines",
+      "description_vi": "Hãng hàng không - VANGUARD AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3068",
+      "description_en": "AIR STANA",
+      "description_vi": "Hãng hàng không - AIR ASTANA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3069",
+      "description_en": "Air Europe",
+      "description_vi": "Hãng hàng không - SUN COUNTRY AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3070",
+      "description_en": "Pacific Southwest Airlines (PSA)",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3071",
+      "description_en": "Air British Columbia",
+      "description_vi": "Hãng hàng không - AIR BRITISH COLUMBIA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3072",
+      "description_en": "CEBU PAC",
+      "description_vi": "Hãng hàng không - CEBU PACIFIC AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3073",
+      "description_en": "Air Cal",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3074",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3075",
+      "description_en": "Singapore Airlines",
+      "description_vi": "Hãng hàng không - SINGAPORE AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3076",
+      "description_en": "Aeromexico",
+      "description_vi": "Hãng hàng không - AEROMEXICO",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3077",
+      "description_en": "Thai Airways",
+      "description_vi": "Hãng hàng không - THAI AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3078",
+      "description_en": "China Airlines",
+      "description_vi": "Hãng hàng không - CHINA AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3079",
+      "description_en": "Jetstar Airways - Jetstar",
+      "description_vi": "Hãng hàng không - JETSTAR AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3080",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3081",
+      "description_en": "Nordair",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3082",
+      "description_en": "Korean Airlines",
+      "description_vi": "Hãng hàng không - KOREAN AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3083",
+      "description_en": "Air Afrique",
+      "description_vi": "Hãng hàng không - AIR AFRIQUE",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3084",
+      "description_en": "Eva Airlines",
+      "description_vi": "Hãng hàng không - EVA AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3085",
+      "description_en": "Midwest Express Airlines, Inc",
+      "description_vi": "Hãng hàng không - MIDWEST EXPRESS AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3086",
+      "description_en": "Carnivalair",
+      "description_vi": "Hãng hàng không - CARNIVAL AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3087",
+      "description_en": "Metro Airlines",
+      "description_vi": "Hãng hàng không - METRO AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3088",
+      "description_en": "Croatia Air—CROATIA",
+      "description_vi": "Hãng hàng không - CROATIA AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3089",
+      "description_en": "Tans Saero",
+      "description_vi": "Hãng hàng không - TRANSAERO",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3090",
+      "description_en": "Uni Airways",
+      "description_vi": "Hãng hàng không - UNI AIRWAYS CORPORATION",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3091",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3092",
+      "description_en": "Midway Airlines",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3093",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3094",
+      "description_en": "Zambia Airways",
+      "description_vi": "Hãng hàng không - ZAMBIA AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3095",
+      "description_en": "Wardair (canada)",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3096",
+      "description_en": "Air Zimbabwe",
+      "description_vi": "Hãng hàng không - AIR ZIMBABWE",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3097",
+      "description_en": "Spanair (abbreviation: SPANAIR)",
+      "description_vi": "Hãng hàng không - SPANAIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3098",
+      "description_en": "Asiana Airlines",
+      "description_vi": "Hãng hàng không - ASIANA AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3099",
+      "description_en": "Cathay Pacific",
+      "description_vi": "Hãng hàng không - CATHAY PACIFIC",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3100",
+      "description_en": "Malaysian Airline Sys",
+      "description_vi": "Hãng hàng không - MALAYSIAN AIRLINE SYSTEM",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3101",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3102",
+      "description_en": "Iberia",
+      "description_vi": "Hãng hàng không - IBERIA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3103",
+      "description_en": "Garuda (Indonesia)",
+      "description_vi": "Hãng hàng không - GARUDA (INDONESIA)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3104",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3105",
+      "description_en": "Piedmont",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3106",
+      "description_en": "Braathens S.A.F.E. (Norway)",
+      "description_vi": "Hãng hàng không - BRAATHENS S.A.F.E. (NORWAY)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3107",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3108",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3109",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3110",
+      "description_en": "Wings Airways",
+      "description_vi": "Hãng hàng không - WINGS AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3111",
+      "description_en": "British Midland",
+      "description_vi": "Hãng hàng không - BRITISH MIDLAND",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3112",
+      "description_en": "Windward Island",
+      "description_vi": "Hãng hàng không - WINDWARD ISLAND",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3113",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3114",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3115",
+      "description_en": "Tower Air",
+      "description_vi": "Hãng hàng không - TOWER AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3116",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3117",
+      "description_en": "Venezolana Int de Aviacion",
+      "description_vi": "Hãng hàng không - VIASA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3118",
+      "description_en": "Valley Airlines",
+      "description_vi": "Hãng hàng không - VALLEY AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3119",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3120",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3121",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3122",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3123",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3124",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3125",
+      "description_en": "Tan Airlines",
+      "description_vi": "Hãng hàng không - TAN",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3126",
+      "description_en": "Talair",
+      "description_vi": "Hãng hàng không - TALAIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3127",
+      "description_en": "Taca International",
+      "description_vi": "Hãng hàng không - TACA INTERNATIONAL",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3128",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3129",
+      "description_en": "Surinam Airways",
+      "description_vi": "Hãng hàng không - SURINAM AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3130",
+      "description_en": "Sunworld International Airways",
+      "description_vi": "Hãng hàng không - SUNWORLD INTERNATIONAL",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3131",
+      "description_en": "VLM Air",
+      "description_vi": "Hãng hàng không - VLM AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3132",
+      "description_en": "Frontier Airlines",
+      "description_vi": "Hãng hàng không - FRONTIER AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3133",
+      "description_en": "Sunbelt Airlines",
+      "description_vi": "Hãng hàng không - SUNBELT AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3134",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3135",
+      "description_en": "Sudan Airlines",
+      "description_vi": "Hãng hàng không - SUDAN AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3136",
+      "description_en": "Qatar Air",
+      "description_vi": "Hãng hàng không - QATAR AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3137",
+      "description_en": "SINGLETON",
+      "description_vi": "Hãng hàng không - SINGLETON",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3138",
+      "description_en": "Simmons Airlines",
+      "description_vi": "Hãng hàng không - SIMMONS AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3139",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3140",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3141",
+      "description_en": "Seair Alaska",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3142",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3143",
+      "description_en": "Scenic Airlines",
+      "description_vi": "Hãng hàng không - SCENIC AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3144",
+      "description_en": "Virgin Atlantic",
+      "description_vi": "Hãng hàng không - VIRGIN ATLANTIC",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3145",
+      "description_en": "San Juan",
+      "description_vi": "Hãng hàng không - SAN JUAN AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3146",
+      "description_en": "Luxair",
+      "description_vi": "Hãng hàng không - LUXAIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3147",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3148",
+      "description_en": "Air Littoral SA",
+      "description_vi": "Hãng hàng không - AIR LITTORAL SA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3150",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3151",
+      "description_en": "Air Laire",
+      "description_vi": "Hãng hàng không - AIR ZAIRE",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3152",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3153",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3154",
+      "description_en": "Princeville",
+      "description_vi": "Hãng hàng không - PRINCEVILLE",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3155",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3156",
+      "description_en": "Go Fly",
+      "description_vi": "Hãng hàng không - GO FLY LTD",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3157",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3158",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3159",
+      "description_en": "PBA-Provincetwn-Bstn Air",
+      "description_vi": "Hãng hàng không - PBA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3160",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3161",
+      "description_en": "All Nippon Airways",
+      "description_vi": "Hãng hàng không - ALL NIPPON AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3162",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3163",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3164",
+      "description_en": "Norontair",
+      "description_vi": "Hãng hàng không - NORONTAIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3165",
+      "description_en": "New York Helicopter",
+      "description_vi": "Hãng hàng không - NEW YORK HELICOPTER",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3166",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3167",
+      "description_en": "Aero Continente - AEROCONTINENTE",
+      "description_vi": "Hãng hàng không - AEROCONTINENTE",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3168",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3169",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3170",
+      "description_en": "Mount Cook",
+      "description_vi": "Hãng hàng không - MOUNT COOK",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3171",
+      "description_en": "Canadian Airlines",
+      "description_vi": "Hãng hàng không - CANADIAN AIRLINES INTERNATIONAL",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3172",
+      "description_en": "Nation Air",
+      "description_vi": "Hãng hàng không - NATIONAIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3173",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3174",
+      "description_en": "JetBlue Airways",
+      "description_vi": "Hãng hàng không - JETBLUE AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3175",
+      "description_en": "Middle East Air",
+      "description_vi": "Hãng hàng không - MIDDLE EAST AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3176",
+      "description_en": "Metroflight Airlines",
+      "description_vi": "Hãng hàng không - METROFLIGHT AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3177",
+      "description_en": "AirTran Airways",
+      "description_vi": "Hãng hàng không - AIRTRAN AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3178",
+      "description_en": "Mesa Air",
+      "description_vi": "Hãng hàng không - MESA AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3179",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3180",
+      "description_en": "Westjet Airlines-WESTJET",
+      "description_vi": "Hãng hàng không - WESTJET AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3181",
+      "description_en": "Malev Hungarian Airlines",
+      "description_vi": "Hãng hàng không - MALEV",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3182",
+      "description_en": "LOT (Poland)",
+      "description_vi": "Hãng hàng không - LOT (POLAND)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3183",
+      "description_en": "Oman Aviation - OMAN AIR",
+      "description_vi": "Hãng hàng không - OMAN AVIATION SERVICES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3184",
+      "description_en": "LIAT",
+      "description_vi": "Hãng hàng không - LIAT",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3185",
+      "description_en": "LAV (Venezuela)",
+      "description_vi": "Hãng hàng không - LAV (VENEZUELA)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3186",
+      "description_en": "LAP (Paraguay)",
+      "description_vi": "Hãng hàng không - LAP (PARAGUAY)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3187",
+      "description_en": "LACSA (Costa Rica)",
+      "description_vi": "Hãng hàng không - LACSA (COSTA RICA)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3188",
+      "description_en": "Virgin Express - VIR EXP",
+      "description_vi": "Hãng hàng không - VIRGIN EXPRESS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3189",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3190",
+      "description_en": "Jugoslav Air",
+      "description_vi": "Hãng hàng không - JUGOSLAV AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3191",
+      "description_en": "Island Airlines",
+      "description_vi": "Hãng hàng không - ISLAND AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3192",
+      "description_en": "Iran National",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3193",
+      "description_en": "Indian Airlines",
+      "description_vi": "Hãng hàng không - INDIAN AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3194",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3195",
+      "description_en": "Holiday Airlines",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3196",
+      "description_en": "Hawaiian Air",
+      "description_vi": "Hãng hàng không - HAWAIIAN AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3197",
+      "description_en": "Havasu Airlines",
+      "description_vi": "Hãng hàng không - HAVASU AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3198",
+      "description_en": "Harbor Airlines",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3199",
+      "description_en": "Servicios Aereos Militares",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3200",
+      "description_en": "Guyana Airways",
+      "description_vi": "Hãng hàng không - GUYANA AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3201",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3202",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3203",
+      "description_en": "Golden Pacific Air",
+      "description_vi": "Hãng hàng không - GOLDEN PACIFIC AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3204",
+      "description_en": "Freedom Airlines",
+      "description_vi": "Hãng hàng không - FREEDOM AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3205",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3206",
+      "description_en": "China Eastern Airlines (Abbr: China East Air)",
+      "description_vi": "Hãng hàng không - CHINA EASTERN AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3207",
+      "description_en": "Empresa Ecuatoriana",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3208",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3209",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3210",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3211",
+      "description_en": "Norwegian Air Shuttle - NORWEGIANAIR",
+      "description_vi": "Hãng hàng không - NORWEGIAN AIR SHUTTLE",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3212",
+      "description_en": "Dominicana de Aviacion",
+      "description_vi": "Hãng hàng không - DOMINICANA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3213",
+      "description_en": "Malmo Aviation - MALMO AV",
+      "description_vi": "Hãng hàng không - MALMO AVIATION",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3214",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3215",
+      "description_en": "Dan Air Services",
+      "description_vi": "Hãng hàng không - DAN AIR SERVICES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3216",
+      "description_en": "Cumberland Airlines",
+      "description_vi": "Hãng hàng không - CUMBERLAND AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3217",
+      "description_en": "CSA-Ceskoslovenske Aeroln",
+      "description_vi": "Hãng hàng không - CSA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3218",
+      "description_en": "Crown Air",
+      "description_vi": "Hãng hàng không - CROWN AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3219",
+      "description_en": "Copa",
+      "description_vi": "Hãng hàng không - COPA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3220",
+      "description_en": "Compania Faucett",
+      "description_vi": "Hãng hàng không - COMPANIA FAUCETT",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3221",
+      "description_en": "Transportes Aeros Mil",
+      "description_vi": "Hãng hàng không - TRANSPORTES AEROS MILITARES ECUATORIANOS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3222",
+      "description_en": "Command Airways",
+      "description_vi": "Hãng hàng không - COMMAND AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3223",
+      "description_en": "Comair",
+      "description_vi": "Hãng hàng không - COMAIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3224",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3225",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3226",
+      "description_en": "Skyways Air- SKYWAYS",
+      "description_vi": "Hãng hàng không - SKYWAYS AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3227",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3228",
+      "description_en": "Cayman Airways",
+      "description_vi": "Hãng hàng không - CAYMAN AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3229",
+      "description_en": "SAETA",
+      "description_vi": "Hãng hàng không - SAETA – SOCIAEDAD ECUATORIANOS DE TRANSPORTES AEREOS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3230",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3231",
+      "description_en": "SAHSA",
+      "description_vi": "Hãng hàng không - SAHSA – SERVICIO AEREO DE HONDURAS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3232",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3233",
+      "description_en": "Capitol Air",
+      "description_vi": "Hãng hàng không - CAPITOL AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3234",
+      "description_en": "CARIBAIR",
+      "description_vi": "Hãng hàng không - CARIBBEAN AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3235",
+      "description_en": "Brockway Air",
+      "description_vi": "Hãng hàng không - BROCKWAY AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3236",
+      "description_en": "Air Arabia Airlines - Air Arab",
+      "description_vi": "Hãng hàng không - AIR ARABIA AIRLINE",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3237",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3238",
+      "description_en": "Bemidji Aviation",
+      "description_vi": "Hãng hàng không - BEMIDJI AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3239",
+      "description_en": "Bar Harbor Airlines",
+      "description_vi": "Hãng hàng không - BAR HARBOR AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3240",
+      "description_en": "Bahamasair",
+      "description_vi": "Hãng hàng không - BAHAMASAIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3241",
+      "description_en": "Aviateca (Guatemala)",
+      "description_vi": "Hãng hàng không - AVIATECA (GUATEMALA)",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3242",
+      "description_en": "Avensa",
+      "description_vi": "Hãng hàng không - AVENSA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3243",
+      "description_en": "Austrian Air Service",
+      "description_vi": "Hãng hàng không - AUSTRIAN AIR SERVICE",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3244",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3245",
+      "description_en": "Easy Jet - EASYJET",
+      "description_vi": "Hãng hàng không - EASYJET AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3246",
+      "description_en": "Ryan Air - RYANAIR",
+      "description_vi": "Hãng hàng không - RYANAIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3247",
+      "description_en": "Gol Airlines - GOL",
+      "description_vi": "Hãng hàng không - GOL AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3248",
+      "description_en": "Tam Airlines - TAM",
+      "description_vi": "Hãng hàng không - TAM AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3249",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3250",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3251",
+      "description_en": "Aloha Airlines",
+      "description_vi": "Hãng hàng không - ALOHA AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3252",
+      "description_en": "ALM-Antilean Airlines",
+      "description_vi": "Hãng hàng không - ALM",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3253",
+      "description_en": "America West",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3254",
+      "description_en": "trump airline trumpair",
+      "description_vi": "Hãng hàng không - US AIR SHUTTLE",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3256",
+      "description_en": "Alaska Airlines Inc.",
+      "description_vi": "Hãng hàng không - ALASKA AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3257",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3258",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3259",
+      "description_en": "American Trans Air",
+      "description_vi": "Hãng hàng không - AMERICAN TRANS AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3260",
+      "description_en": "Spirit Airlines - SPIRIT",
+      "description_vi": "Hãng hàng không - SPIRIT AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3261",
+      "description_en": "Air China",
+      "description_vi": "Hãng hàng không - AIR CHINA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3262",
+      "description_en": "Reno Air, Inc",
+      "description_vi": "Hãng hàng không - RENO AIR, INC.",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3263",
+      "description_en": "Aero Servicio Carabobo",
+      "description_vi": "Hãng hàng không - AERO SERVICO CARABOBO",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3265",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3266",
+      "description_en": "Air Seychelles",
+      "description_vi": "Hãng hàng không - AIR SEYCHELLES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3267",
+      "description_en": "Air Panama International",
+      "description_vi": "Hãng hàng không - AIR PANAMA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3268",
+      "description_en": "Air Pacific",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3270",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3274",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3275",
+      "description_en": "Air Nevada",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3276",
+      "description_en": "Air Midwest",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3277",
+      "description_en": "Air Madagascar",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3278",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3279",
+      "description_en": "Air LA",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3280",
+      "description_en": "Air Jamaica",
+      "description_vi": "Hãng hàng không - AIR JAMAICA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3282",
+      "description_en": "Air Djibouti",
+      "description_vi": "Hãng hàng không - AIR DJIBOUTI",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3283",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3284",
+      "description_en": "Aero Virgin Islands",
+      "description_vi": "Hãng hàng không - AERO VIRGIN ISLANDS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3285",
+      "description_en": "AeroPeru",
+      "description_vi": "Hãng hàng không - AEROPERU",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3286",
+      "description_en": "Aero Nicaraguensis",
+      "description_vi": "Hãng hàng không - AEROLINEAS NICARAGUENSIS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3287",
+      "description_en": "Aero Coach Aviation",
+      "description_vi": "Hãng hàng không - AERO COACH AVIATION",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3288",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3289",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3290",
+      "description_en": "Air/Passenger Transport T&E Non-internat",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3291",
+      "description_en": "Ariana Afghan",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3292",
+      "description_en": "Cyprus Airways",
+      "description_vi": "Hãng hàng không - CYPRUS AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3293",
+      "description_en": "Ecuatoriana",
+      "description_vi": "Hãng hàng không - ECUATORIANA",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3294",
+      "description_en": "Ethiopian Airlines",
+      "description_vi": "Hãng hàng không - ETHIOPIAN AIRLINES",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3295",
+      "description_en": "Kenya Airways",
+      "description_vi": "Hãng hàng không - KENYA AIRWAYS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3296",
+      "description_en": "Air Berlin-AIRBERLIN",
+      "description_vi": "Hãng hàng không - AIR BERLIN",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3297",
+      "description_en": "Tarom Romanian Air Transport",
+      "description_vi": "Hãng hàng không - TAROM ROMANIAN AIR TRANSPORT",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3298",
+      "description_en": "Air Mauritius",
+      "description_vi": "Hãng hàng không - AIR MAURITIUS",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3299",
+      "description_en": "Wideroe's Flyveselskap",
+      "description_vi": "Hãng hàng không - WIDEROE’S FLYVESELSKAP",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3300",
+      "description_en": "Azul Air",
+      "description_vi": "Hãng hàng không - AZUL AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3301",
+      "description_en": "Wizz Air",
+      "description_vi": "Hãng hàng không - WIZZ AIR",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "3302",
+      "description_en": "FLYBE LTD",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3303",
+      "description_en": "Tigerair",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3308",
+      "description_en": "China Southern",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3501",
+      "description_en": "Holiday Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3502",
+      "description_en": "Best Western Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3503",
+      "description_en": "Sheraton",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3504",
+      "description_en": "Hilton",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3505",
+      "description_en": "Forte Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3506",
+      "description_en": "Golden Tulip Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3507",
+      "description_en": "Friendship Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3508",
+      "description_en": "Quality Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3509",
+      "description_en": "Marriott",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3510",
+      "description_en": "Days Inn Colonial Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3511",
+      "description_en": "Arabella Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3512",
+      "description_en": "Intercontinental Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3513",
+      "description_en": "Westin",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3514",
+      "description_en": "Amerisuites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3515",
+      "description_en": "Rodeway Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3516",
+      "description_en": "LaQuinta Motor Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3517",
+      "description_en": "Americana Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3518",
+      "description_en": "Sol Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3519",
+      "description_en": "Pullman International Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3520",
+      "description_en": "Meridien Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3521",
+      "description_en": "Royal Lahaina Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3522",
+      "description_en": "Tokyo Group",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3523",
+      "description_en": "Peninsula Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3524",
+      "description_en": "WelcomGroup Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3525",
+      "description_en": "Dunfey Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3526",
+      "description_en": "Prince Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3527",
+      "description_en": "Downtowner Passport",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3528",
+      "description_en": "Red Lion Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3529",
+      "description_en": "CP (Canadian Pacific)",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3530",
+      "description_en": "Renaissance Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3531",
+      "description_en": "Kauai Coconut Beach Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3532",
+      "description_en": "Royal Kona Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3533",
+      "description_en": "Hotel Ibis",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3534",
+      "description_en": "Southern Pacific",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3535",
+      "description_en": "Hilton International",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3536",
+      "description_en": "AMFAC Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3537",
+      "description_en": "ANA Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3538",
+      "description_en": "Concorde Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3539",
+      "description_en": "Summerfield Suites Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3540",
+      "description_en": "Iberotel Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3541",
+      "description_en": "Hotel Okura",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3542",
+      "description_en": "Royal Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3543",
+      "description_en": "Four Seasons",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3544",
+      "description_en": "Cigna Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3545",
+      "description_en": "Shangri-La International",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3546",
+      "description_en": "Hotel Sierra",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3547",
+      "description_en": "Lodging T&E Non-international airline",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3548",
+      "description_en": "Hotels Melia",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3549",
+      "description_en": "Auberge des Governeurs",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3550",
+      "description_en": "Regal 8 Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3551",
+      "description_en": "Mirage Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3552",
+      "description_en": "Coast Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3553",
+      "description_en": "Park Inns International",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3554",
+      "description_en": "Pinehurst Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3555",
+      "description_en": "Treasure Island Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3556",
+      "description_en": "Barton Creek Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3557",
+      "description_en": "Manhattan East Suite Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3558",
+      "description_en": "Jolly Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3559",
+      "description_en": "Candlewood Suites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3560",
+      "description_en": "Aladdin Resort and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3561",
+      "description_en": "Golden Nugget",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3562",
+      "description_en": "Comfort Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3563",
+      "description_en": "Journey's End Motels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3564",
+      "description_en": "Sam's Town Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3565",
+      "description_en": "Relax Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3566",
+      "description_en": "Garden Place Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3567",
+      "description_en": "Soho Grand Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3568",
+      "description_en": "Ladbroke Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3569",
+      "description_en": "Tribeca Grand Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3570",
+      "description_en": "Forum Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3571",
+      "description_en": "Grand Wailea Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3572",
+      "description_en": "Miyako Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3573",
+      "description_en": "Sandman Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3574",
+      "description_en": "Venture Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3575",
+      "description_en": "Vagabond Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3576",
+      "description_en": "La Quinta Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3577",
+      "description_en": "Mandarin Oriental Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3578",
+      "description_en": "Frankenmuth Bavarian",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3579",
+      "description_en": "Hotel Mercure",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3580",
+      "description_en": "Hotel Del Coronado",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3581",
+      "description_en": "Delta Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3582",
+      "description_en": "California Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3583",
+      "description_en": "SAS Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3584",
+      "description_en": "Princess Hotels International",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3585",
+      "description_en": "Hungar Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3586",
+      "description_en": "Sokos Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3587",
+      "description_en": "Doral Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3588",
+      "description_en": "Helmsley Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3589",
+      "description_en": "Doral Golf Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3590",
+      "description_en": "Fairmont Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3591",
+      "description_en": "Sonesta Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3592",
+      "description_en": "Omni Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3593",
+      "description_en": "Cunard Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3594",
+      "description_en": "Arizona Biltmore",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3595",
+      "description_en": "Hospitality Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3596",
+      "description_en": "Wynn Las Vegas",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3597",
+      "description_en": "Riverside Resort and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3598",
+      "description_en": "Regent International Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3599",
+      "description_en": "Pannonia Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3600",
+      "description_en": "Saddlebrook Resort - Tampa",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3601",
+      "description_en": "Trade Winds Resorts",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3602",
+      "description_en": "Hudson Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3603",
+      "description_en": "Noah's Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3604",
+      "description_en": "Hilton Garden Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3605",
+      "description_en": "Jurys Doyle Hotel Group",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3606",
+      "description_en": "Jefferson Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3607",
+      "description_en": "Fountainebleau Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3608",
+      "description_en": "Gaylord Opryland",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3609",
+      "description_en": "Gaylord Palms",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3610",
+      "description_en": "Gaylord Texan",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3611",
+      "description_en": "C MON INN",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3612",
+      "description_en": "Movenpick Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3613",
+      "description_en": "Microtel Inns & Suites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3614",
+      "description_en": "Americinn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3615",
+      "description_en": "Travelodge Motels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3616",
+      "description_en": "Lodging T&E Non-international airline",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3617",
+      "description_en": "America's Best Value Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3618",
+      "description_en": "Great Wolf",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3619",
+      "description_en": "Aloft",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3620",
+      "description_en": "Binion's Horseshoe Club",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3621",
+      "description_en": "Extended Stay",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3622",
+      "description_en": "Merlin Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3623",
+      "description_en": "Dorint Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3624",
+      "description_en": "Lady Luck Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3625",
+      "description_en": "Hotel Universale",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3626",
+      "description_en": "Studio Plus",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3627",
+      "description_en": "Extended Stay America",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3628",
+      "description_en": "Excalibur Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3629",
+      "description_en": "Dan Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3630",
+      "description_en": "Extended Stay Deluxe",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3631",
+      "description_en": "Sleep Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3632",
+      "description_en": "The Phoenician",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3633",
+      "description_en": "Rank Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3634",
+      "description_en": "Swissotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3635",
+      "description_en": "Reso Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3636",
+      "description_en": "Sarova Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3637",
+      "description_en": "Ramada Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3638",
+      "description_en": "Howard Johnson",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3639",
+      "description_en": "Mount Charlotte Thistle",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3640",
+      "description_en": "Hyatt Motels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3641",
+      "description_en": "Sofitel Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3642",
+      "description_en": "Novotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3643",
+      "description_en": "Steigenberger Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3644",
+      "description_en": "EconoLodges",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3645",
+      "description_en": "Queens Moat Houses",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3646",
+      "description_en": "Swallow Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3647",
+      "description_en": "Husa Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3648",
+      "description_en": "De Vere Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3649",
+      "description_en": "Radisson Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3650",
+      "description_en": "Red Roof Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3651",
+      "description_en": "Imperial London Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3652",
+      "description_en": "Embassy Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3653",
+      "description_en": "Penta Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3654",
+      "description_en": "Loews Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3655",
+      "description_en": "Scandic Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3656",
+      "description_en": "Sara Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3657",
+      "description_en": "Oberoi Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3658",
+      "description_en": "New",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3659",
+      "description_en": "Taj Hotels International",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3660",
+      "description_en": "Knights Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3661",
+      "description_en": "Metropole Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3662",
+      "description_en": "Circus Circus Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3663",
+      "description_en": "Hoteles El Presidente",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3664",
+      "description_en": "Flag Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3665",
+      "description_en": "Hampton Inn Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3666",
+      "description_en": "Stakis Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3667",
+      "description_en": "Luxor Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3668",
+      "description_en": "Maritim Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3669",
+      "description_en": "Eldorado Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3670",
+      "description_en": "Arcade Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3671",
+      "description_en": "Arctia Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3672",
+      "description_en": "Campanile Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3673",
+      "description_en": "IBUSZ Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3674",
+      "description_en": "Rantasipi Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3675",
+      "description_en": "Interhotel CEDOK",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3676",
+      "description_en": "Monte Carlo Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3677",
+      "description_en": "Climat de France Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3678",
+      "description_en": "Cumulus Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3679",
+      "description_en": "Silver Legacy Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3680",
+      "description_en": "Hoteis Othan",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3681",
+      "description_en": "Adams Mark Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3682",
+      "description_en": "Sahara Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3683",
+      "description_en": "Bradbury Suites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3684",
+      "description_en": "Budget Hosts Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3685",
+      "description_en": "Budgetel Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3686",
+      "description_en": "Suisse Chalet",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3687",
+      "description_en": "Clarion Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3688",
+      "description_en": "Compri Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3689",
+      "description_en": "Consort Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3690",
+      "description_en": "Courtyard Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3691",
+      "description_en": "Dillon Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3692",
+      "description_en": "Doubletree",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3693",
+      "description_en": "Drury Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3694",
+      "description_en": "Economy Inns of America",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3695",
+      "description_en": "Embassy Suites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3696",
+      "description_en": "Excel Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3697",
+      "description_en": "Fairfield Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3698",
+      "description_en": "Harley Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3699",
+      "description_en": "Midway Motor Lodge",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3700",
+      "description_en": "Motel 6",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3701",
+      "description_en": "La Mansion Del Rio",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3702",
+      "description_en": "The Registry Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3703",
+      "description_en": "Residence Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3704",
+      "description_en": "Royce Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3705",
+      "description_en": "Sandman Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3706",
+      "description_en": "Shilo Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3707",
+      "description_en": "Shoney's Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3708",
+      "description_en": "Virgin River Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3709",
+      "description_en": "Super 8 Motels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3710",
+      "description_en": "The Ritz Carlton Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3711",
+      "description_en": "Flag Inns (Australia)",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3712",
+      "description_en": "Buffalo Bill's Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3713",
+      "description_en": "Quality Pacific Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3714",
+      "description_en": "Four Seasons Hotels-Austr",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3715",
+      "description_en": "Fairfield Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3716",
+      "description_en": "Carlton Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3717",
+      "description_en": "City Lodge Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3718",
+      "description_en": "Karos Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3719",
+      "description_en": "Protea Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3720",
+      "description_en": "Southern Sun Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3721",
+      "description_en": "Hilton Conrad Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3722",
+      "description_en": "Wyndham Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3723",
+      "description_en": "Rica Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3724",
+      "description_en": "Inter Nor Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3725",
+      "description_en": "SeaPines Plantation",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3726",
+      "description_en": "Rio Suites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3727",
+      "description_en": "Broadmoor Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3728",
+      "description_en": "Bally's Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3729",
+      "description_en": "John Ascuaga's Nugget",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3730",
+      "description_en": "MGM Grand Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3731",
+      "description_en": "Harrah's Hotels and Casinos",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3732",
+      "description_en": "Opryland Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3733",
+      "description_en": "Boca Raton Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3734",
+      "description_en": "Harvey/Bristol Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3735",
+      "description_en": "Master Economy Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3736",
+      "description_en": "Colorado Belle/Edgewater Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3737",
+      "description_en": "Riviera Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3738",
+      "description_en": "Tropicana Resort & Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3739",
+      "description_en": "Woodside Hotels & Resorts",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3740",
+      "description_en": "Towneplace Suites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3741",
+      "description_en": "Millennium Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3742",
+      "description_en": "Wizz Air",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3743",
+      "description_en": "Biltmore Hotel and Suites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3744",
+      "description_en": "Carefree Resorts",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3745",
+      "description_en": "St. Regis Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3746",
+      "description_en": "The Eliot Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3747",
+      "description_en": "ClubCorp/ClubResorts",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3748",
+      "description_en": "Wellesley Inns",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3749",
+      "description_en": "The Beverly Hills Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3750",
+      "description_en": "Crown Plaza Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3751",
+      "description_en": "Homewood Suites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3752",
+      "description_en": "Peabody Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3753",
+      "description_en": "Greenbriar Resorts",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3754",
+      "description_en": "Amelia Island Plantation",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3755",
+      "description_en": "The Homestead",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3756",
+      "description_en": "South Seas Resorts",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3757",
+      "description_en": "Canyon Ranch",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3758",
+      "description_en": "Kahala Mandarion Oriental Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3759",
+      "description_en": "The Orchid at Mauna Lani",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3760",
+      "description_en": "Halekulani Hotel/Waikiki Parc",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3761",
+      "description_en": "Primadonna Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3762",
+      "description_en": "Whisky Pete's Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3763",
+      "description_en": "Chateau Elan Winery and Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3764",
+      "description_en": "Beau Rivage Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3765",
+      "description_en": "Bellagio",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3766",
+      "description_en": "Fremont Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3767",
+      "description_en": "Main Street Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3768",
+      "description_en": "Silver Star Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3769",
+      "description_en": "Stratosphere Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3770",
+      "description_en": "SpringHill Suites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3771",
+      "description_en": "Caesar's Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3772",
+      "description_en": "Nemacolin Woodlands",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3773",
+      "description_en": "The Venetian Resort Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3774",
+      "description_en": "New York-New York Hotel and Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3775",
+      "description_en": "Sands Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3776",
+      "description_en": "Nevele Grande Resort and Country Club",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3777",
+      "description_en": "Mandalay Bay Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3778",
+      "description_en": "Four Points Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3779",
+      "description_en": "W Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3780",
+      "description_en": "Disney Resorts",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3781",
+      "description_en": "Patricia Grand Resort Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3782",
+      "description_en": "Rosen Hotels & Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3783",
+      "description_en": "Town and Country Resort and Convention Center",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3784",
+      "description_en": "First Hospitality Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3785",
+      "description_en": "Outrigger Hotels and Resorts",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3786",
+      "description_en": "Ohana Hotel of Hawaii",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3787",
+      "description_en": "Caribe Royale Resort Suites & Villas",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3788",
+      "description_en": "Ala Moana Hotel / Ala Moana Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3789",
+      "description_en": "Smugglers' Notch Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3790",
+      "description_en": "Raffles Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3791",
+      "description_en": "Staybridge Suites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3792",
+      "description_en": "Claridge Casino Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3793",
+      "description_en": "The Flamingo Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3794",
+      "description_en": "Grand Casino Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3795",
+      "description_en": "Paris Las Vegas Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3796",
+      "description_en": "Peppermill Hotel Casino",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3797",
+      "description_en": "Atlantic City Hilton",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3798",
+      "description_en": "Embassy Vacation Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3799",
+      "description_en": "Hale Koa Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3800",
+      "description_en": "Homestead",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3801",
+      "description_en": "Wilderness Hotel and Golf Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3802",
+      "description_en": "The Palace Hotel",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3803",
+      "description_en": "The Wigwam Golf Resort and Spa",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3804",
+      "description_en": "The Diplomat Country Club and Spa",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3805",
+      "description_en": "The Atlantic",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3806",
+      "description_en": "Princeville Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3807",
+      "description_en": "Element",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3808",
+      "description_en": "LXR",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3809",
+      "description_en": "Settle Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3810",
+      "description_en": "La Costa Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3811",
+      "description_en": "Premier Travel Inn",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3812",
+      "description_en": "Hyatt Place",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3813",
+      "description_en": "Hotel Indigo",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3814",
+      "description_en": "The Roosevelt Hotel NY",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3815",
+      "description_en": "Holiday Inn Nickelodeon",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3816",
+      "description_en": "Home2 Suites by Hilton",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3817",
+      "description_en": "Affinia",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3818",
+      "description_en": "Mainstay Suites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3819",
+      "description_en": "Oxford Suites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3820",
+      "description_en": "Jumeirah Essex House",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3821",
+      "description_en": "Caribe Royale",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3822",
+      "description_en": "Crossland",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3823",
+      "description_en": "Grand Sierra Resort",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3824",
+      "description_en": "Aria",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3825",
+      "description_en": "Vdara",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3826",
+      "description_en": "Autograph",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3827",
+      "description_en": "Galt House",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3828",
+      "description_en": "Cosmopolitan of Las Vegas",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3829",
+      "description_en": "Country Inn by Carlson",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3830",
+      "description_en": "Wizz Air",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3831",
+      "description_en": "Waldorf",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3832",
+      "description_en": "Curio Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3833",
+      "description_en": "Canopy Hotels",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3834",
+      "description_en": "Baymont Inn & Suites",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3835",
+      "description_en": "Dolce Hotels and Resorts",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3836",
+      "description_en": "Hawthorne Suites by Wyndham",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3837",
+      "description_en": "HOSHINO RESORT",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3838",
+      "description_en": "KIMPTON HOTEL",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "3998",
+      "description_en": "China Railway (CR)",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "4111",
+      "description_en": null,
+      "description_vi": "Vận chuyển hành khách đi lại địa phương và ngoại ô, bao gồm cả phà",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "4112",
+      "description_en": null,
+      "description_vi": "Đường sắt chở khách",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "4121",
+      "description_en": "Taxi/ Limousine",
+      "description_vi": "Taxi và xe limousine",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "4131",
+      "description_en": null,
+      "description_vi": "Đường xe buýt",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "4457",
+      "description_en": null,
+      "description_vi": "Dịch vụ thuê tàu thuyền",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "4468",
+      "description_en": null,
+      "description_vi": "Dịch vụ bến du thuyền, hàng hải",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "4511",
+      "description_en": null,
+      "description_vi": "Hàng Không - Mã Ngành Hàng tổng quát",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "4722",
+      "description_en": null,
+      "description_vi": "Đại lý du lịch",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "4784",
+      "description_en": null,
+      "description_vi": "Phí cầu đường",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "4789",
+      "description_en": null,
+      "description_vi": "Dịch vụ vận chuyển",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "4814",
+      "description_en": null,
+      "description_vi": "Dịch vụ viễn thông",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "4816",
+      "description_en": null,
+      "description_vi": "Mạng máy tính / Dịch vụ thông tin",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "4899",
+      "description_en": null,
+      "description_vi": "Truyền hình cáp và các dịch vụ truyền hình và đài phát thanh trả tiền khác",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5021",
+      "description_en": "Office Furniture (Business to Business MCC)",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5094",
+      "description_en": "Precious Stones, Metals, Watches and Jewelry (Business to Business MCC)",
+      "description_vi": "Cửa hàng đá quý và kim loại, đồng hồ và trang sức",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5099",
+      "description_en": "Durable Goods Not Elsewhere Classified (Business to Business MCC)",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5111",
+      "description_en": "Stationery, Office Supplies, and Printing and Writing Paper",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5131",
+      "description_en": "Piece Goods, Notions and Other Dry Goods (Business to Business MCC)",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5137",
+      "description_en": "Men's, Women's and Children's Uniforms (Business to Business MCC)",
+      "description_vi": "Cửa hàng quần áo nam nữ",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5139",
+      "description_en": "Commercial Footwear (Business to Business MCC)",
+      "description_vi": "Cửa hàng giày dép nam nữ",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5192",
+      "description_en": "Books, Periodicals and Newspapers (Business to Business MCC)",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5193",
+      "description_en": "Florist Suppliers, Nursery Stock & Flowers (Business to Business MCC)",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5200",
+      "description_en": "Home Supply Warehouse",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5262",
+      "description_en": "Online Marketplace",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5296",
+      "description_en": "Internet Shopping Retail Physical",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5298",
+      "description_en": "Internet Shopping Grocery Store",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5300",
+      "description_en": "Wholesale Club with or without membership fee",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5301",
+      "description_en": "Vending Machines",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5309",
+      "description_en": "Duty Free Stores",
+      "description_vi": "Cửa hàng Miễn Thuế - Các cửa hàng bán lẻ bán Quà Tặng và hàng hóa Nhập Khẩu được miễn thanh toán các loại Thuế và nghĩa vụ.",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5310",
+      "description_en": "Discount Store",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5311",
+      "description_en": "Department Stores",
+      "description_vi": "Trung tâm thương mại",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5331",
+      "description_en": "Variety Stores",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5411",
+      "description_en": null,
+      "description_vi": "Cửa hàng tạp hóa và siêu thị",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5462",
+      "description_en": null,
+      "description_vi": "Cửa hàng bánh",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5499",
+      "description_en": null,
+      "description_vi": "Cửa hàng thực phẩm, Cửa hàng tiện lợi và thị trường đặc biệt",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "5541",
+      "description_en": null,
+      "description_vi": "Trạm dịch vụ (Có hoặc không có Dịch vụ phụ trợ)",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "5542",
+      "description_en": null,
+      "description_vi": "Bình nóng lạnh tự động",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "5611",
+      "description_en": "Men's & Boys' Clothing and Accessory Stores",
+      "description_vi": "Cửa hàng quần áo và phụ kiện nam",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5621",
+      "description_en": "Women's Ready-to-Wear Stores",
+      "description_vi": "Cửa hàng quần áo may sẵn nữ",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5631",
+      "description_en": "Women's Accessory and Specialty Stores",
+      "description_vi": "Cửa hàng phụ kiện nữ",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5641",
+      "description_en": "Children's and Infants' Wear Stores",
+      "description_vi": "Cửa hàng quần áo trẻ em",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5651",
+      "description_en": "Family Clothing Stores",
+      "description_vi": "Cửa hàng quần áo gia đình",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5655",
+      "description_en": "Sports and Riding Apparel Stores",
+      "description_vi": "Cửa hàng quần áo thể thao",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5661",
+      "description_en": "Shoe Stores",
+      "description_vi": "Cửa hàng giày dép nam nữ",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5681",
+      "description_en": "Furriers & Fur Shops",
+      "description_vi": "Cửa hàng đồ da",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5691",
+      "description_en": "Men's and Women's Clothing Stores",
+      "description_vi": "Cửa hàng quần áo nam nữ",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5697",
+      "description_en": "Tailors, Seamstresses, Mending, Alterations",
+      "description_vi": "Cửa hàng may đo",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5698",
+      "description_en": "Wig & Toupee Shops",
+      "description_vi": "Cửa hàng tóc giả",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5699",
+      "description_en": "Miscellaneous Apparel and Accessory Stores",
+      "description_vi": "Cửa hàng quần áo và phụ kiện",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5722",
+      "description_en": null,
+      "description_vi": "Cửa hàng đồ gia dụng",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "5732",
+      "description_en": null,
+      "description_vi": "Cửa hàng điện tử",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "5733",
+      "description_en": null,
+      "description_vi": "Cửa hàng âm nhạc, nhạc cụ",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5735",
+      "description_en": null,
+      "description_vi": "Dịch vụ thu âm",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5811",
+      "description_en": "Caterers - Prepare & Delivery",
+      "description_vi": "Cửa hàng lương thực thực phẩm",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5812",
+      "description_en": "Eating Places and Restaurants",
+      "description_vi": "Cửa hàng ăn uống và nhà hàng",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5813",
+      "description_en": "Drinking Places (Alcoholic Beverages) - Bars, Taverns, Nightclubs, Cocktail Lounges, and Discotheques",
+      "description_vi": "Quán rượu, vũ trường, câu lạc bộ khiêu vũ",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5814",
+      "description_en": "Quick Payment Service-Fast Food Restaurants",
+      "description_vi": "Nhà hàng thức ăn nhanh",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "Sacombank MCC đặc biệt PDF",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5815",
+      "description_en": null,
+      "description_vi": "Dịch vụ sách, phim ảnh, âm nhạc kỹ thuật số",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5816",
+      "description_en": null,
+      "description_vi": "Dịch vụ trò chơi kỹ thuật số",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5817",
+      "description_en": null,
+      "description_vi": "Dịch vụ ứng dụng kỹ thuật số",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5818",
+      "description_en": null,
+      "description_vi": "Các dịch vụ kỹ thuật số khác",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5921",
+      "description_en": null,
+      "description_vi": "Cửa hàng bia rượu",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5932",
+      "description_en": null,
+      "description_vi": "Cửa hàng buôn bán, sửa chữa, phục hồi đồ cổ",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5933",
+      "description_en": "Pawn Shop",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5935",
+      "description_en": "Wrecking and Salvage Yards",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5937",
+      "description_en": "Antique Reproduction Stores",
+      "description_vi": "Cửa hàng tái chế đồ cổ",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5940",
+      "description_en": "Bicycle Shop-Sales and Services",
+      "description_vi": "Cửa hàng buôn bán và dịch vụ về xe đạp",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5941",
+      "description_en": "Sporting Goods Stores",
+      "description_vi": "Cửa hàng thể thao",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5942",
+      "description_en": "Book Stores",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5943",
+      "description_en": "Stationery, Office and School Supply Stores",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5944",
+      "description_en": "Jewelry, Watch, Clock, and Silverware Stores",
+      "description_vi": "Cửa hàng trang sức, đồng hồ và đồ bạc",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5945",
+      "description_en": "Hobby, Toy and Game Stores",
+      "description_vi": "Cửa hàng đồ chơi, trò chơi",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5946",
+      "description_en": "Camera and Photographic Supply Stores",
+      "description_vi": "Cửa hàng cung cấp máy ảnh và dịch vụ chụp ảnh",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5947",
+      "description_en": "Gift, Card, Novelty, and Souvenir Stores",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5948",
+      "description_en": "Luggage and Leather Goods Stores",
+      "description_vi": "Cửa hàng đồ da",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5949",
+      "description_en": "Sewing, Needlework, Fabric, and Piece Good Stores",
+      "description_vi": "Cửa hàng may, kim và vải",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5950",
+      "description_en": "Glassware and Crystal Stores",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5960",
+      "description_en": null,
+      "description_vi": "Tiếp thị trực tiếp Dịch vụ bảo hiểm trực tuyến",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5968",
+      "description_en": null,
+      "description_vi": "Các dịch vụ thanh toán định kỳ",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5970",
+      "description_en": null,
+      "description_vi": "Cửa hàng thủ công và các dịch vụ nghệ thuật",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5971",
+      "description_en": null,
+      "description_vi": "Đại lý và phòng trưng bày nghệ thuật",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5972",
+      "description_en": null,
+      "description_vi": "Cửa hàng dịch vụ tem và tiền xu",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5977",
+      "description_en": "Cosmetic Stores",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5992",
+      "description_en": "Florists",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5993",
+      "description_en": "Cigar Stores & Stands",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5994",
+      "description_en": "News Dealers & Newsstands",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5995",
+      "description_en": "Pet Shops, Pet Food, and Supplies",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5996",
+      "description_en": "Swimming Pools--Sales, Supplies, and Services",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5997",
+      "description_en": "Electric Razor Stores Sales & Services",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "5998",
+      "description_en": "Tent and Awning Stores",
+      "description_vi": "Cửa hàng dịch vụ lều trại",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "5999",
+      "description_en": "Miscellaneous & Specialty Retail Stores",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "6300",
+      "description_en": null,
+      "description_vi": "Bán bảo hiểm, bảo lãnh phát hành và phí bảo hiểm",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "6513",
+      "description_en": null,
+      "description_vi": "Đại lý và quản lý bất động sản Cho thuê nhà",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "7011",
+      "description_en": "Lodging - Hotels, Motels, and Resorts",
+      "description_vi": null,
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023"
+      ]
+    },
+    {
+      "mcc": "7032",
+      "description_en": null,
+      "description_vi": "Dịch vụ cắm trại thể thao và giải trí",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7033",
+      "description_en": null,
+      "description_vi": "Dịch vụ cắm trại và công viên",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7221",
+      "description_en": null,
+      "description_vi": "Cửa hàng chụp ảnh",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7251",
+      "description_en": "Shoe Repair Shops, Shoe Shine Parlors, and Hat Cleaning Shops",
+      "description_vi": "Cửa hàng sửa chữa, tiệm đánh giày",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7296",
+      "description_en": "Clothing Rental - Costumes, Uniforms and Formal Wear",
+      "description_vi": "Cửa hàng cho thuê quần áo",
+      "sources": [
+        "VIB Super Card MCC VN_EN PDF 16.10.2023",
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7349",
+      "description_en": null,
+      "description_vi": "Dịch vụ vệ sinh, bảo trì và bảo vệ",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "7395",
+      "description_en": null,
+      "description_vi": "Dịch vụ hình ảnh",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7631",
+      "description_en": null,
+      "description_vi": "Cửa hàng sửa chữa đồng hồ và trang sức",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7832",
+      "description_en": null,
+      "description_vi": "Rạp chiếu phim",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7841",
+      "description_en": null,
+      "description_vi": "Cửa hàng cho thuê bang đĩa",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7911",
+      "description_en": null,
+      "description_vi": "Dịch vụ vũ trường và phim trường",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7929",
+      "description_en": null,
+      "description_vi": "Dịch vụ ban nhạc, dàn nhạc và các hình thức giải trí khác",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7932",
+      "description_en": null,
+      "description_vi": "Dịch vụ Bi-da",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7933",
+      "description_en": null,
+      "description_vi": "Dịch vụ bowling",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7941",
+      "description_en": null,
+      "description_vi": "Sân điền kinh, câu lạc bộ thể thao thương mại và chuyên nghiệp",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7991",
+      "description_en": null,
+      "description_vi": "Dịch vụ du lịch và triển lãm",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7992",
+      "description_en": null,
+      "description_vi": "Dịch vụ đánh gôn",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7993",
+      "description_en": null,
+      "description_vi": "Dịch vụ chơi game giải trí",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7994",
+      "description_en": null,
+      "description_vi": "Dịch vụ trò chơi điện tử",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7996",
+      "description_en": null,
+      "description_vi": "Dịch vụ giải trí, xiếc, lễ hội…",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7997",
+      "description_en": null,
+      "description_vi": "Câu lạc bộ giải trí",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7998",
+      "description_en": null,
+      "description_vi": "Dịch vụ thủy cung, sở thú",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "7999",
+      "description_en": null,
+      "description_vi": "Các dịch vụ giải trí khác",
+      "sources": [
+        "UOB x2 benefits credit cards PDF"
+      ]
+    },
+    {
+      "mcc": "8211",
+      "description_en": null,
+      "description_vi": "Trường tiểu học và trung học",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "8220",
+      "description_en": null,
+      "description_vi": "Cao đẳng, đại học, trường chuyên nghiệp và cao đẳng",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "8398",
+      "description_en": null,
+      "description_vi": "Tổ chức từ thiện và dịch vụ xã hội",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "8661",
+      "description_en": null,
+      "description_vi": "Tổ chức tôn giáo",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "9211",
+      "description_en": null,
+      "description_vi": "Chi phí tòa án, bao gồm tiền cấp dưỡng và hỗ trợ trẻ em",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "9222",
+      "description_en": null,
+      "description_vi": "Phạt tiền",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "9311",
+      "description_en": null,
+      "description_vi": "Thanh toán thuế",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "9399",
+      "description_en": null,
+      "description_vi": "Dịch vụ chính phủ",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "9402",
+      "description_en": null,
+      "description_vi": "Dịch vụ bưu chính Chính phủ chỉ",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    },
+    {
+      "mcc": "9405",
+      "description_en": null,
+      "description_vi": "Mua trong nội bộ chính phủ: Chỉ dành cho chính phủ",
+      "sources": [
+        "Sacombank MCC đặc biệt PDF"
+      ]
+    }
+  ]
+}

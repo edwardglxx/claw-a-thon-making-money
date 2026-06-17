@@ -1,0 +1,366 @@
+{
+  "source": "[Claw-a-thon] Data input(Sheet1).csv",
+  "count": 60,
+  "examples": [
+    {
+      "no": 1,
+      "question": "Tôi sắp đi Malaysia concert BTS, tôi muốn book vé máy bay & khách sạn, tôi nên dùng thẻ credit nào để được hoàn tiền nhiều nhất có thể?",
+      "sample_answer": "",
+      "note": "Câu hỏi có 2 ý, vé máy bay và khách sạn, cần tách riêng để trả lời cho chuẩn xác"
+    },
+    {
+      "no": 2,
+      "question": "Mcc của 711 là gì?",
+      "sample_answer": "",
+      "note": "711 còn có tên khác là 7 Eleven"
+    },
+    {
+      "no": 3,
+      "question": "Một tháng tôi tiêu khoảng 5tr VNĐ mua sắm online trên Shopee & Tiktokshop, tôi nên mở thẻ credit nào để được hoàn tiền?",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có tính năng tư vấn mở thẻ, tôi chỉ có thể phân tích dựa trên các thẻ bạn đang có",
+      "note": "Từ đó tư vấn dựa trên các thẻ đang có"
+    },
+    {
+      "no": 4,
+      "question": "Thu nhập của tôi dưới 20tr/ tháng, tôi thường ăn hàng quán & đặt đồ ăn trên Grab",
+      "sample_answer": "Nên tập trung sử dụng thẻ X vì thẻ này chuyên hoàn tiền cho lĩnh vực Ăn uống hoặc kết hợp sử dụng thẻ X và thẻ Y vì 2 thẻ này có hoàn tiền cho lĩnh vực ăn uống và di chuyển (GRAB)",
+      "note": "Đối với các câu hỏi chung chung không có số tiền cụ thể, hãy tư vấn dựa trên mức hoàn tiền tối đa của thẻ"
+    },
+    {
+      "no": 5,
+      "question": "Thanh toán quốc tế tại Thái Lan nên dùng thẻ nào có chi phí chuyển đổi ngoại tệ thấp nhất?",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có thông tin liên quan đến phí chuyển đổi ngoại tệ",
+      "note": "Các topic không liên quan đến sản phẩm, hãy phản hồi là chưa có thông tin"
+    },
+    {
+      "no": 6,
+      "question": "Highlands Coffee thuộc danh mục Ăn uống hay Cafe?",
+      "sample_answer": "Trong dữ liệu tôi có, Highlands Coffee có mã MCC là X (danh mục Y)",
+      "note": ""
+    },
+    {
+      "no": 7,
+      "question": "Circle K có được tính là siêu thị không?",
+      "sample_answer": "Trong dữ liệu tôi có, Circle K có mã MCC là X (danh mục Y)",
+      "note": "Kiểm tra danh mục của Circle K"
+    },
+    {
+      "no": 8,
+      "question": "Tôi đang có VCB Visa với HSBC Live+, có nên mở thêm thẻ nữa không?",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có tính năng tư vấn mở thẻ, tôi chỉ có thể phân tích dựa trên các thẻ bạn đang có",
+      "note": ""
+    },
+    {
+      "no": 9,
+      "question": "Mua đồ ở Uniqlo khoảng 2 triệu nên xài thẻ nào?",
+      "sample_answer": "",
+      "note": ""
+    },
+    {
+      "no": 10,
+      "question": "Thanh toán Netflix có được tính là Entertainment không?",
+      "sample_answer": "Trong dữ liệu tôi có, Netflix có mã MCC là X (danh mục Y)",
+      "note": ""
+    },
+    {
+      "no": 11,
+      "question": "Tôi sắp trả tiền bảo hiểm Papaya cho người thân, có thẻ nào được hoàn không?",
+      "sample_answer": "Nếu chưa có thông tin về merchant này, phản hồi là: Agent chưa có thông tin về merchant này.\nNếu có những merchant có tên gần giống, phản hồi là: Trong dữ liệu của tôi, có các merchant có tên gần giống là A, B, C... có phải merchant bạn đang tìm kiếm không? Sau khi user confirm lại là tên merchant cụ thể hoặc không phải thì trả lời tiếp.",
+      "note": ""
+    },
+    {
+      "no": 12,
+      "question": "Vừa quẹt 520k ở KingFood Mart.",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu nhập giao dịch"
+    },
+    {
+      "no": 13,
+      "question": "Thanh toán tiền điện tháng này khoảng 1tr bằng thẻ nào được hoàn?",
+      "sample_answer": "Thanh toán tiền điện (MCC 4900) bị loại trừ ở tất cả các thẻ",
+      "note": ""
+    },
+    {
+      "no": 14,
+      "question": "Mua mỹ phẩm ở Hasaki app hay Hasaki Shopee sẽ hoàn tiền tốt hơn?",
+      "sample_answer": "",
+      "note": "Đây là dạng câu hỏi so sánh, cần kiểm tra khả năng hoàn tiền của merchant Hasaki và merchant Shopee để tư vấn cho user. Ngoài ra nếu có phương án thứ 3 tốt hơn nữa thì cũng tư vấn luôn"
+    },
+    {
+      "no": 15,
+      "question": "Nhà thuốc Long Châu thuộc danh mục nào?",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu hỏi MCC"
+    },
+    {
+      "no": 16,
+      "question": "Sắp đóng học phí cho con 20 triệu, dùng thẻ nào tối ưu?",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu hỏi tư vấn sử dụng thẻ"
+    },
+    {
+      "no": 17,
+      "question": "Quẹt ở Guardian thì có ăn hoàn tiền sức khỏe hay làm đẹp?",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu hỏi MCC, lĩnh vực hoàn tiền"
+    },
+    {
+      "no": 18,
+      "question": "Tháng này tôi đi công tác nước ngoài nhiều, nên ưu tiên dùng thẻ nào?",
+      "sample_answer": "Bạn hãy nói cụ thể hơn lĩnh vực mình sắp chi tiêu để tôi tư vấn kĩ hơn",
+      "note": "Đây là mẫu câu hỏi tư vấn sử dụng thẻ. Hỏi lại user chi tiêu những lĩnh vực gì để tư vấn tiếp cho phù hợp"
+    },
+    {
+      "no": 19,
+      "question": "Nếu bỏ 1 thẻ thì nên bỏ thẻ nào?",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có tính năng tư vấn đóng thẻ, tôi chỉ có thể phân tích dựa trên các thẻ bạn đang có",
+      "note": ""
+    },
+    {
+      "no": 20,
+      "question": "Điện Máy Xanh có phải Electronics không?",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu hỏi MCC"
+    },
+    {
+      "no": 21,
+      "question": "Thanh toán GrabBike thì MCC là gì?",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu hỏi MCC"
+    },
+    {
+      "no": 22,
+      "question": "Tôi chỉ dùng khoảng 10 triệu/tháng, nên giữ mấy thẻ là đủ?",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có tính năng tư vấn đóng thẻ, tôi chỉ có thể phân tích dựa trên các thẻ bạn đang có",
+      "note": ""
+    },
+    {
+      "no": 23,
+      "question": "Tôi mua vé concert BTS trên Thaiticket Major và Ticket master nên dùng thẻ nào?",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu hỏi MCC, lĩnh vực hoàn tiền"
+    },
+    {
+      "no": 24,
+      "question": "Tôi muốn mua điện thoại Iphone 17 Promax tại CellPhoneS, dùng thẻ nào",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu hỏi MCC, lĩnh vực hoàn tiền. Nhớ hỏi lại số tiền"
+    },
+    {
+      "no": 25,
+      "question": "Thẻ nào kiếm tiền cho tôi nhiều nhất?",
+      "sample_answer": "Liệt kê lịch sử 3 tháng gần nhất (tháng nào không có thông tin thì không liệt kê): Trong tháng X, thẻ Y được hoàn tiền nhiều nhất với số tiền Z.",
+      "note": ""
+    },
+    {
+      "no": 26,
+      "question": "Có nên nâng hạng thẻ không?",
+      "sample_answer": "Agent chưa có tính năng tư vấn mở thẻ, chỉ có thể phân tích dựa trên các thẻ bạn đang có",
+      "note": ""
+    },
+    {
+      "no": 27,
+      "question": "Với mức chi tiêu này tôi có nên dùng thẻ premium không?",
+      "sample_answer": "Agent chưa có tính năng tư vấn mở thẻ, chỉ có thể phân tích dựa trên các thẻ bạn đang có",
+      "note": ""
+    },
+    {
+      "no": 28,
+      "question": "Tôi vừa tiêu 400k ở GrabFood, ghi nhận giúp tôi.",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu hỏi input giao dịch"
+    },
+    {
+      "no": 29,
+      "question": "Giúp tôi tiết kiệm phí thường niên các thẻ tôi đang sử dụng",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có tính năng quản lí phí thường niên",
+      "note": ""
+    },
+    {
+      "no": 30,
+      "question": "Tôi sắp mua merch của BTS tại concert ở Singapore, giá khoảng 2 triệu, nên dùng thẻ nào để hoàn phí cao + tiết kiệm phí chuyển đổi ngoại tệ",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có thông tin liên quan đến phí chuyển đổi ngoại tệ",
+      "note": "Tư vấn chọn thẻ cần doanh số chi tiêu"
+    },
+    {
+      "no": 31,
+      "question": "Tôi hay mua hàng Shopee, có nên dùng thẻ tín dụng không?",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu hỏi chọn thẻ hoàn tiền tốt nhất"
+    },
+    {
+      "no": 32,
+      "question": "Tôi nên trả góp điện thoại giá 30tr như thế nào?",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có thông tin liên quan đến vấn đề trả góp",
+      "note": ""
+    },
+    {
+      "no": 33,
+      "question": "Những mặt hàng giá trị cao trên 20tr nên dùng thẻ nào để trả góp ít lãi nhất",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có thông tin liên quan đến vấn đề trả góp",
+      "note": ""
+    },
+    {
+      "no": 34,
+      "question": "Tôi đang dùng thẻ VIB 2in1 và MSB, cái nào ok hơn?",
+      "sample_answer": "Hiện tại tôi chỉ có thể phân tích dựa trên các thẻ bạn đang có",
+      "note": ""
+    },
+    {
+      "no": 35,
+      "question": "Thẻ nào đang ít lãi nhất nếu trả góp?",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có thông tin liên quan đến vấn đề trả góp",
+      "note": ""
+    },
+    {
+      "no": 36,
+      "question": "Đi siêu thị có nên quẹt thẻ tín dụng không?",
+      "sample_answer": "Có, bạn nên dùng thẻ X, thẻ này có tính năng hoàn Y% tối đa Z mỗi tháng cho danh mục Siêu thị",
+      "note": "Đây là mẫu câu hỏi chọn thẻ phù hợp theo danh mục"
+    },
+    {
+      "no": 37,
+      "question": "Cách để quản lý chi tiêu khi dùng thẻ tín dụng là gì? Thường tôi sẽ có suy nghĩ là cứ dùng rồi tháng sau trả và nghèo vì trả nợ huhu",
+      "sample_answer": "Hãy donate / vote cho tôi để giúp tôi hoàn thiện các tính năng, tôi sẽ trở thành một trợ lí hữu ích giúp bạn quản lí và làm giàu từ việc chi tiêu thẻ tín dụng.",
+      "note": ""
+    },
+    {
+      "no": 38,
+      "question": "Những khoản chi phí dưới 1tr nên xài thẻ nào là tốt nhất",
+      "sample_answer": "",
+      "note": "Câu hỏi chung chung, tư vấn chọn thẻ cần doanh số chi tiêu"
+    },
+    {
+      "no": 39,
+      "question": "Thẻ tín dụng nào hoàn tiền nhiều nhất khi đi siêu thị (Aeon, WinMart, Coopmart) hằng tuần?",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu hỏi chọn thẻ hoàn tiền tốt nhất"
+    },
+    {
+      "no": 40,
+      "question": "Có thẻ tín dụng nào tích điểm hoặc hoàn tiền ngon cho hội hay đi nhà hàng, ăn uống cuối tuần không?",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu hỏi chọn thẻ hoàn tiền tốt nhất. Lưu ý câu hỏi đang hỏi 2 lĩnh vực."
+    },
+    {
+      "no": 41,
+      "question": "Đi đổ xăng với đóng tiền điện, nước, internet hằng tháng thì quẹt thẻ nào lời nhất?",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu hỏi chọn thẻ hoàn tiền tốt nhất. Lưu ý câu hỏi đang hỏi 2 lĩnh vực (đổ xăng và thanh toán hoá đơn)."
+    },
+    {
+      "no": 42,
+      "question": "Trả Góp 0% bằng thẻ tín dụng tại cửa hàng liên kết với tự bấm chuyển đổi trả góp trên app ngân hàng thì cái nào lợi hơn?",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có thông tin liên quan đến vấn đề trả góp",
+      "note": ""
+    },
+    {
+      "no": 43,
+      "question": "Mình hay đặt đồ ăn qua Grab/ShopeeFood với đi cà phê, dùng thẻ nào để được hoàn tiền hoặc giảm giá đậm nhất?",
+      "sample_answer": "",
+      "note": "Đây là mẫu câu hỏi chọn thẻ hoàn tiền tốt nhất. Lưu ý câu hỏi đang hỏi 2 lĩnh vực."
+    },
+    {
+      "no": 44,
+      "question": "Nghe nói có mấy dòng thẻ hoàn tiền đến 6% - 10% cho chi tiêu online, điều kiện để được hoàn tối đa có khó không?",
+      "sample_answer": "Không khó. Hãy donate / vote cho tôi để giúp tôi hoàn thiện các tính năng, tôi sẽ trở thành một trợ lí hữu ích giúp bạn quản lí và làm giàu từ việc chi tiêu thẻ tín dụng.",
+      "note": ""
+    },
+    {
+      "no": 45,
+      "question": "Nên chọn thẻ hoàn tiền cố định trên mọi chi tiêu hay thẻ hoàn tiền theo danh mục (category) thì hời hơn?",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có tính năng tư vấn mở thẻ, tôi chỉ có thể phân tích dựa trên các thẻ bạn đang có",
+      "note": ""
+    },
+    {
+      "no": 46,
+      "question": "Chi tiêu hằng tháng tầm 5 - 7 triệu đổ lại thì mở thẻ hoàn tiền nào để không bị lỗ tiền phí thường niên?",
+      "sample_answer": "Bạn có thể nói rõ hơn các danh mục thường chi tiêu và số tiền chi tiêu mỗi tháng để tôi tư vấn kĩ hơn",
+      "note": ""
+    },
+    {
+      "no": 47,
+      "question": "Cuối tháng lỡ tiêu quá tay không đủ tiền trả hết sao kê thì nên vay người thân trả trước, hay chấp nhận chịu lãi ngân hàng một tháng?",
+      "sample_answer": "Đây là một câu hỏi hay, thuộc gói premium. Hãy donate / vote cho tôi để giúp tôi hoàn thiện các tính năng, tôi sẽ trở thành một trợ lí hữu ích giúp bạn quản lí và làm giàu từ việc chi tiêu thẻ tín dụng.",
+      "note": ""
+    },
+    {
+      "no": 48,
+      "question": "Thu nhập 5 triệu thì nên sở hữu tối đa mấy cái thẻ tín dụng để không bị rối khi quản lý ngày sao kê?",
+      "sample_answer": "Tuỳ thuộc vào danh mục và số tiền chi tiêu hàng tháng của bạn. Bạn có thể dùng các tính năng của agent này để thêm thẻ, thêm danh sách giao dịch giả định sẽ chi tiêu để ước tính số tiền mình sẽ nhận được hàng tháng nhé.",
+      "note": ""
+    },
+    {
+      "no": 49,
+      "question": "Phí chuyển đổi của ngân hàng nào đang ok nhất nhỉ?",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có thông tin liên quan đến vấn đề trả góp",
+      "note": ""
+    },
+    {
+      "no": 50,
+      "question": "Thẻ tín dụng của ngân hàng nào hay có deal giảm thêm tiền mặt (kiểu giảm 1 - 2 triệu) khi tôi mua iPhone hoặc laptop mới?",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có thông tin liên quan đến khuyến mãi của các ngân hàng",
+      "note": ""
+    },
+    {
+      "no": 51,
+      "question": "Tôi đi du lịch nước ngoài (kiểu Thái Lan, Hàn Quốc) thì dùng thẻ của ngân hàng nào có phí chuyển đổi ngoại tệ thấp nhất để vừa được hoàn tiền vừa không lỗ tỷ giá?",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có thông tin liên quan đến vấn đề tỉ giá ngoại tệ",
+      "note": ""
+    },
+    {
+      "no": 52,
+      "question": "Tôi tính mua máy giặt với tủ lạnh tầm 20 triệu, nên mở thẻ của bên nào để được trả góp 0% lãi suất mà phí chuyển đổi rẻ nhất?",
+      "sample_answer": "Xin lỗi, hiện tại tôi chưa có thông tin liên quan đến vấn đề trả góp",
+      "note": ""
+    },
+    {
+      "no": 53,
+      "question": "Tôi đang dùng thẻ VIB 2in1 với MSB, bạn thấy cái nào ok hơn cho nhu cầu chi tiêu hằng ngày của tôi?",
+      "sample_answer": "Tuỳ thuộc vào danh mục và số tiền chi tiêu hàng tháng của bạn. Bạn có thể dùng các tính năng của agent này để thêm thẻ, thêm danh sách giao dịch giả định sẽ chi tiêu để ước tính số tiền mình sẽ nhận được hàng tháng nhé.",
+      "note": ""
+    },
+    {
+      "no": 54,
+      "question": "Nếu tôi lỡ thanh toán dư tiền vào thẻ tín dụng (ví dụ sao kê 5 triệu nhưng tôi chuyển khoản nhầm 7 triệu) thì số tiền thừa đó xử lý thế nào? Tôi có bị tính phí giữ tiền hay có rút ra lại được không?",
+      "sample_answer": "Bạn nên liên hệ chăm sóc khách hàng của ngân hàng để được tư vấn tốt nhất.",
+      "note": ""
+    },
+    {
+      "no": 55,
+      "question": "Tôi đang phân vân giữa việc gom hết chi tiêu vào 1 thẻ để nhanh đủ mức hoàn tối đa, hay chia ra 2-3 thẻ để săn deal đa dạng hơn?",
+      "sample_answer": "Tuỳ thuộc vào danh mục và số tiền chi tiêu hàng tháng của bạn. Bạn có thể dùng các tính năng của agent này để thêm thẻ, thêm danh sách giao dịch giả định sẽ chi tiêu để ước tính số tiền mình sẽ nhận được hàng tháng nhé.",
+      "note": ""
+    },
+    {
+      "no": 56,
+      "question": "Sao ngân hàng tự động tăng hạn mức của tôi lên nhỉ",
+      "sample_answer": "Bạn nên liên hệ chăm sóc khách hàng của ngân hàng để được tư vấn tốt nhất.",
+      "note": ""
+    },
+    {
+      "no": 57,
+      "question": "Có nên add thẻ tín dụng vào Grab, Shopee các thứ không vì tới khi sao kê tôi thấy hết nhiều tiền quá",
+      "sample_answer": "Tuỳ thuộc vào danh mục và số tiền chi tiêu hàng tháng của bạn. Bạn có thể dùng các tính năng của agent này để thêm thẻ, thêm danh sách giao dịch giả định sẽ chi tiêu để ước tính số tiền mình sẽ nhận được hàng tháng nhé.",
+      "note": ""
+    },
+    {
+      "no": 58,
+      "question": "Gợi ý cách quản lý chi tiêu khi dùng thẻ tín dụng",
+      "sample_answer": "Agent có tính năng quản lí chi tiêu thẻ tín dụng thay cho ghi chép tay, hãy sử dụng tính năng đó",
+      "note": ""
+    },
+    {
+      "no": 59,
+      "question": "Tôi sắp đi Thái, có khoản nào nên dùng thẻ tín dụng không",
+      "sample_answer": "Câu hỏi khá chung chung, bạn hãy hỏi cụ thể một giao dịch kèm số tiền chi tiêu để tôi tư vấn chính xác nhất nhé",
+      "note": "Đối với các câu hỏi không nói rõ lĩnh vực chi tiêu, hãy hỏi lại user cụ thể lĩnh vực và số tiền chi tiêu"
+    },
+    {
+      "no": 60,
+      "question": "Thường những khoản tiền cỡ bao nhiêu mới có lợi khi dùng thẻ tín dụng",
+      "sample_answer": "Câu hỏi khá chung chung, bạn hãy hỏi cụ thể một giao dịch kèm số tiền chi tiêu để tôi tư vấn chính xác nhất nhé",
+      "note": ""
+    }
+  ]
+}

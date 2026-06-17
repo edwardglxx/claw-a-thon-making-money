@@ -1,48 +1,163 @@
 {
   "cards": [
     {
-      "id": "sacombank-cashback",
-      "name": "Sacombank Cashback",
-      "aliases": ["sacombank", "sacom"],
-      "statement": { "type": "statement_cycle", "close_day": 25 },
-      "period_cap": 600000,
+      "id": "cake-cashback",
+      "name": "Cake Cashback",
+      "aliases": [
+        "cake",
+        "cake cashback"
+      ],
+      "statement": {
+        "type": "statement_cycle",
+        "close_day": 20
+      },
+      "cashback_close_day": 20,
+      "credit_limit": 35000000,
+      "min_total_spend": 5000000,
+      "period_cap": 1000000,
+      "cashback_round_down_to": 0,
       "cashback_rules": [
         {
-          "name": "5% chi tiêu trực tuyến",
-          "rate": 0.05,
-          "channels": ["online"],
-          "cap_per_period": 600000,
-          "cap_key": "online"
+          "rate": 0.2,
+          "cap_per_period": 200000,
+          "max_cashback_per_transaction": 50000,
+          "low_amount_threshold": 200000,
+          "low_amount_cashback_cap": 10000,
+          "name": "20% Mua sắm MCC 5262",
+          "mcc": [
+            "5262"
+          ],
+          "categories": [
+            "shopping"
+          ],
+          "cap_key": "shopping"
+        },
+        {
+          "rate": 0.2,
+          "cap_per_period": 200000,
+          "max_cashback_per_transaction": 50000,
+          "low_amount_threshold": 200000,
+          "low_amount_cashback_cap": 10000,
+          "name": "20% Đại lí du lịch MCC 4722",
+          "mcc": [
+            "4722"
+          ],
+          "categories": [
+            "travel-agency"
+          ],
+          "cap_key": "travel-agency"
+        },
+        {
+          "rate": 0.2,
+          "cap_per_period": 200000,
+          "max_cashback_per_transaction": 50000,
+          "low_amount_threshold": 200000,
+          "low_amount_cashback_cap": 10000,
+          "name": "20% Thời trang MCC 5611",
+          "mcc": [
+            "5611"
+          ],
+          "categories": [
+            "fashion"
+          ],
+          "cap_key": "fashion"
+        },
+        {
+          "rate": 0.2,
+          "cap_per_period": 200000,
+          "max_cashback_per_transaction": 50000,
+          "low_amount_threshold": 200000,
+          "low_amount_cashback_cap": 10000,
+          "name": "20% Siêu thị MCC 5411",
+          "mcc": [
+            "5411"
+          ],
+          "categories": [
+            "grocery"
+          ],
+          "cap_key": "grocery"
+        },
+        {
+          "rate": 0.2,
+          "cap_per_period": 200000,
+          "max_cashback_per_transaction": 50000,
+          "low_amount_threshold": 200000,
+          "low_amount_cashback_cap": 10000,
+          "name": "20% Di chuyển MCC 4121",
+          "mcc": [
+            "4121"
+          ],
+          "categories": [
+            "mobility"
+          ],
+          "cap_key": "mobility"
         }
       ]
     },
     {
-      "id": "cake-cashback",
-      "name": "Cake Cashback",
-      "aliases": ["cake"],
-      "statement": { "type": "statement_cycle", "close_day": 20 },
-      "min_total_spend": 5000000,
+      "id": "sacombank-platinum-cashback",
+      "name": "Sacombank Platinum Cashback",
+      "aliases": [
+        "sacombank platinum",
+        "platinum cashback",
+        "sacombank cashback platinum"
+      ],
+      "statement": {
+        "type": "statement_cycle",
+        "close_day": 30
+      },
+      "cashback_close_day": 30,
+      "credit_limit": 100000000,
+      "min_total_spend": 0,
+      "period_cap": 600000,
+      "cashback_round_down_to": 0,
       "cashback_rules": [
-        { "name": "20% ăn uống", "rate": 0.2, "categories": ["dining"], "mcc": ["5812", "5814"], "cap_per_period": 200000, "cap_key": "dining" },
-        { "name": "20% siêu thị", "rate": 0.2, "categories": ["grocery"], "mcc": ["5411"], "cap_per_period": 200000, "cap_key": "grocery" },
-        { "name": "20% xăng", "rate": 0.2, "categories": ["fuel"], "mcc": ["5541", "5542"], "cap_per_period": 200000, "cap_key": "fuel" },
-        { "name": "20% du lịch", "rate": 0.2, "categories": ["travel"], "mcc": ["3000", "3501", "4511", "4722"], "cap_per_period": 200000, "cap_key": "travel" },
-        { "name": "20% giải trí", "rate": 0.2, "categories": ["entertainment"], "mcc": ["7832", "7996"], "cap_per_period": 200000, "cap_key": "entertainment" }
+        {
+          "name": "5% Chi tiêu trực tuyến, trừ thanh toán hóa đơn MCC 4900",
+          "rate": 0.05,
+          "channels": [
+            "online"
+          ],
+          "excluded_mcc": [
+            "4900"
+          ],
+          "cap_key": "online",
+          "cap_per_period": 600000
+        }
       ]
     },
     {
-      "id": "seabank-shopee",
-      "name": "SeaBank Shopee",
-      "aliases": ["seabank", "sea bank"],
-      "statement": { "type": "calendar_month" },
+      "id": "seabank-seaeasy",
+      "name": "SeaBank SeaEasy",
+      "aliases": [
+        "seabank seaeasy",
+        "sea easy",
+        "seaeasy"
+      ],
+      "statement": {
+        "type": "statement_cycle",
+        "close_day": 30
+      },
+      "cashback_close_day": 30,
+      "credit_limit": 19000000,
+      "min_total_spend": 0,
+      "period_cap": 600000,
+      "cashback_round_down_to": 50000,
       "cashback_rules": [
         {
-          "name": "8% Shopee, làm tròn bội số 50k",
+          "name": "8% Shopee, trừ thanh toán hóa đơn MCC 4900",
           "rate": 0.08,
-          "categories": ["shopee"],
-          "merchants": ["shopee"],
-          "channels": ["online"],
-          "round_eligible_spend_to": 50000
+          "categories": [
+            "shopee"
+          ],
+          "merchants": [
+            "shopee"
+          ],
+          "excluded_mcc": [
+            "4900"
+          ],
+          "cap_key": "shopee",
+          "cap_per_period": 600000
         }
       ]
     }

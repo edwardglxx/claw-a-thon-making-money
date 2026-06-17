@@ -81,6 +81,14 @@ def init_database() -> None:
 
             CREATE INDEX IF NOT EXISTS idx_merchant_mcc_mcc
             ON merchant_mcc(mcc);
+
+            CREATE TABLE IF NOT EXISTS mcc_categories (
+                mcc TEXT PRIMARY KEY,
+                description_en TEXT,
+                description_vi TEXT,
+                sources TEXT,
+                updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+            );
             """
         )
         ensure_columns(conn)
@@ -225,16 +233,59 @@ def delete_transaction(transaction_id: str | None = None) -> dict[str, Any]:
     return target
 
 
-def update_transaction_mcc(transaction_id: str, mcc: str, category: str | None = None) -> dict[str, Any]:
+def update_transaction_mcc(
+    transaction_id: str,
+    mcc: str,
+    category: str | None = None,
+    merchant_name: str | None = None,
+) -> dict[str, Any]:
     init_database()
     with connect() as conn:
         conn.execute(
-            "UPDATE transactions SET mcc = ?, category = COALESCE(?, category) WHERE id = ?",
-            (str(mcc), category, transaction_id),
+            """
+            UPDATE transactions
+            SET mcc = ?, category = COALESCE(?, category), merchant_name = COALESCE(?, merchant_name)
+            WHERE id = ?
+            """,
+            (str(mcc), category, merchant_name, transaction_id),
         )
         row = conn.execute("SELECT * FROM transactions WHERE id = ?", (transaction_id,)).fetchone()
     if not row:
         raise ValueError("transaction not found")
+    return _transaction_row_to_dict(row)
+
+
+def update_transaction(payload: dict[str, Any]) -> dict[str, Any]:
+    init_database()
+    transaction_id = payload.get("id")
+    if not transaction_id:
+        raise ValueError("transaction id is required")
+    payment_method = (payload.get("channel") or payload.get("payment_method") or "").lower()
+    if payment_method and payment_method not in {"online", "pos"}:
+        raise ValueError("payment_method/channel must be 'online' or 'pos'")
+    with connect() as conn:
+        existing = conn.execute("SELECT * FROM transactions WHERE id = ?", (transaction_id,)).fetchone()
+        if not existing:
+            raise ValueError("transaction not found")
+        conn.execute(
+            """
+            UPDATE transactions
+            SET transaction_date = ?, amount = ?, merchant_name = ?,
+                mcc = ?, payment_method = ?, category = ?, note = ?
+            WHERE id = ?
+            """,
+            (
+                payload.get("date") or payload.get("transaction_date") or existing["transaction_date"],
+                int(payload.get("amount") if payload.get("amount") not in (None, "") else existing["amount"]),
+                payload.get("merchant") or payload.get("merchant_name") or existing["merchant_name"],
+                payload.get("mcc") if payload.get("mcc") not in (None, "") else None,
+                payment_method or existing["payment_method"],
+                payload.get("category") if "category" in payload else existing["category"],
+                payload.get("note") if "note" in payload else existing["note"],
+                transaction_id,
+            ),
+        )
+        row = conn.execute("SELECT * FROM transactions WHERE id = ?", (transaction_id,)).fetchone()
     return _transaction_row_to_dict(row)
 
 
@@ -270,6 +321,68 @@ def replace_merchant_mcc(rows: list[dict[str, Any]], source: str = "import") -> 
             )
         count = conn.execute("SELECT COUNT(*) FROM merchant_mcc WHERE source = ?", (source,)).fetchone()[0]
     return int(count)
+
+
+def replace_mcc_categories(rows: list[dict[str, Any]]) -> int:
+    init_database()
+    cleaned: dict[str, dict[str, Any]] = {}
+    for row in rows:
+        mcc = str(row.get("mcc") or "").strip()
+        if not mcc:
+            continue
+        current = cleaned.setdefault(
+            mcc,
+            {
+                "mcc": mcc,
+                "description_en": None,
+                "description_vi": None,
+                "sources": set(),
+            },
+        )
+        if row.get("description_en") and not current.get("description_en"):
+            current["description_en"] = str(row["description_en"]).strip()
+        if row.get("description_vi") and not current.get("description_vi"):
+            current["description_vi"] = str(row["description_vi"]).strip()
+        for source in row.get("sources") or []:
+            if source:
+                current["sources"].add(str(source))
+        if row.get("source"):
+            current["sources"].add(str(row["source"]))
+    with connect() as conn:
+        conn.execute("DELETE FROM mcc_categories")
+        for row in cleaned.values():
+            conn.execute(
+                """
+                INSERT INTO mcc_categories (
+                    mcc, description_en, description_vi, sources, updated_at
+                ) VALUES (?, ?, ?, ?, CURRENT_TIMESTAMP)
+                """,
+                (
+                    row["mcc"],
+                    row.get("description_en"),
+                    row.get("description_vi"),
+                    json.dumps(sorted(row.get("sources") or []), ensure_ascii=False),
+                ),
+            )
+        count = conn.execute("SELECT COUNT(*) FROM mcc_categories").fetchone()[0]
+    return int(count)
+
+
+def lookup_mcc_category(mcc: str | None) -> dict[str, Any] | None:
+    init_database()
+    code = str(mcc or "").strip()
+    if not code:
+        return None
+    with connect() as conn:
+        row = conn.execute("SELECT * FROM mcc_categories WHERE mcc = ?", (code,)).fetchone()
+    return _mcc_category_row_to_dict(row) if row else None
+
+
+def list_mcc_categories() -> list[dict[str, Any]]:
+    init_database()
+    with connect() as conn:
+        rows = conn.execute("SELECT * FROM mcc_categories ORDER BY mcc").fetchall()
+    return [_mcc_category_row_to_dict(row) for row in rows]
 
 
 def insert_merchant_mcc(payload: dict[str, Any]) -> dict[str, Any]:
@@ -476,6 +589,22 @@ def upsert_card(payload: dict[str, Any]) -> dict[str, Any]:
     return _card_row_to_dict(row)
 
 
+def delete_card(card_id: str) -> dict[str, Any]:
+    init_database()
+    if not card_id:
+        raise ValueError("card_id is required")
+    with connect() as conn:
+        row = conn.execute("SELECT * FROM cards WHERE id = ?", (card_id,)).fetchone()
+        if not row:
+            raise ValueError("Không tìm thấy thẻ cần xoá.")
+        card = _card_row_to_dict(row)
+        txn_count = conn.execute("SELECT COUNT(*) FROM transactions WHERE card_id = ?", (card_id,)).fetchone()[0]
+        conn.execute("DELETE FROM transactions WHERE card_id = ?", (card_id,))
+        conn.execute("DELETE FROM cards WHERE id = ?", (card_id,))
+    card["deleted_transactions"] = txn_count
+    return card
+
+
 def schema_summary() -> dict[str, Any]:
     return {
         "database": str(DB_PATH),
@@ -517,6 +646,13 @@ def schema_summary() -> dict[str, Any]:
                 "note",
                 "source",
             ],
+            "mcc_categories": [
+                "mcc",
+                "description_en",
+                "description_vi",
+                "sources",
+                "updated_at",
+            ],
         },
     }
 
@@ -547,6 +683,7 @@ def _card_row_to_dict(row: sqlite3.Row) -> dict[str, Any]:
         "period_cap": row["period_cap"],
         "cashback_round_down_to": row["cashback_round_down_to"],
         "cashback_rules": json.loads(row["cashback_rules_json"] or "[]"),
+        "updated_at": row["updated_at"],
     }
 
 
@@ -580,4 +717,14 @@ def _merchant_mcc_row_to_dict(row: sqlite3.Row) -> dict[str, Any]:
         "category": row["category"],
         "note": row["note"],
         "source": row["source"],
+    }
+
+
+def _mcc_category_row_to_dict(row: sqlite3.Row) -> dict[str, Any]:
+    return {
+        "mcc": row["mcc"],
+        "description_en": row["description_en"],
+        "description_vi": row["description_vi"],
+        "sources": json.loads(row["sources"] or "[]"),
+        "updated_at": row["updated_at"],
     }
