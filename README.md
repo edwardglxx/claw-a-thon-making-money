@@ -4,7 +4,9 @@ Web agent quản lý hoàn tiền thẻ tín dụng cho Claw-a-thon.
 
 ## Mô tả use case
 
-Giải quyết bài toán người dùng có nhiều thẻ tín dụng nhưng khó nhớ MCC, cap, kỳ sao kê và điều kiện chi tiêu. Agent tư vấn thẻ nên dùng, ghi giao dịch, tra cứu MCC và theo dõi hoàn tiền theo tháng.
+Vấn đề: người mới tập dùng thẻ tín dụng hoặc người dùng có quá nhiều thẻ tín dụng mà không nhớ hết MCC, điều kiện chi tiêu để đạt mức hoàn tiền tốt nhất.
+
+Giải pháp: Cung cấp chatbot tư vấn thẻ nên dùng cho từng loại giao dịch; công cụ lưu giao dịch, thẻ, theo dõi hoàn tiền mỗi tháng; tra cứu MCC.
 
 Agent hiện có:
 
