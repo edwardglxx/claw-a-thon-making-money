@@ -2,6 +2,10 @@
 
 Web agent quản lý hoàn tiền thẻ tín dụng cho Claw-a-thon.
 
+## Mô tả use case
+
+Giải quyết bài toán người dùng có nhiều thẻ tín dụng nhưng khó nhớ MCC, cap, kỳ sao kê và điều kiện chi tiêu. Agent tư vấn thẻ nên dùng, ghi giao dịch, tra cứu MCC và theo dõi hoàn tiền theo tháng.
+
 Agent hiện có:
 
 - Rule engine tính hoàn tiền theo kỳ sao kê hoặc tháng dương lịch.
